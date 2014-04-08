@@ -1,0 +1,5 @@
+name: Bird Ultimate
+markdown: redcarpet
+pygments: true
+permalink: /news/:year/:month/:day/:title/
+excerpt_separator: <!--more-->

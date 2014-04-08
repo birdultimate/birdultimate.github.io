@@ -1,0 +1,102 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html { -webkit-font-smoothing: antialiased; }
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a { 
+  color: #007AFF; 
+  text-decoration: none;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #1D62F0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1AD6FD), to(#1D62F0));
+  background-image: -webkit-linear-gradient(top, #1AD6FD, #1D62F0);
+  background-image:    -moz-linear-gradient(top, #1AD6FD, #1D62F0);
+  background-image:      -o-linear-gradient(top, #1AD6FD, #1D62F0);
+  background-image:         linear-gradient(to bottom, #1AD6FD, #1D62F0);
+     -moz-box-shadow: 0 5px 3px #8E8E93;
+  -webkit-box-shadow: 0 5px 3px #8E8E93;
+          box-shadow: 0 5px 3px #8E8E93;
+}
+
+.header img.logo {
+  height: 50px;
+  width: auto;
+}
+
+.content {
+  position: relative;
+  min-height: 100%;
+  height: auto !important;
+  margin-bottom: -56px;
+}
+
+.header-offset {
+  padding-top: 65px;
+}
+
+.content-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 960px) {
+  .content-container {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.footer {
+  position: relative;
+  width:100%;
+  height:40px;
+  background:#F7F7F7;
+  font-size: 0.75em;
+  color: #666;
+}
+
+.footer p {
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+}
