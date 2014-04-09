@@ -47,6 +47,7 @@ a {
   z-index: 9999;
   width: 100%;
   height: 50px;
+  line-height: 1em;
   background-color: #1D62F0;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#1AD6FD), to(#1D62F0));
   background-image: -webkit-linear-gradient(top, #1AD6FD, #1D62F0);
@@ -58,9 +59,42 @@ a {
           box-shadow: 0 5px 3px #8E8E93;
 }
 
-.header img.logo {
+.header .logo {
+  display: inline-block;
+}
+
+.header .logo img {
+  display: block;
   height: 50px;
   width: auto;
+}
+
+ul.top-nav {
+  display: inline-block;
+  float: right;
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  ul.top-nav {
+    display: none;
+  }
+}
+
+ul.top-nav li {
+  float: left;
+  position: relative;
+}
+
+ul.top-nav a {
+  display: block;
+  padding: 0 1.2em;
+  color: #FFF;
+  font-size: 1.2em;
+  line-height: 50px;
+  background: none;
+  font-weight: bold;
+  height: 50px;
 }
 
 .content {
