@@ -158,6 +158,10 @@ ul.top-nav a {
   position: relative;
 }
 
+.page-banner img {
+  width: 100%;
+}
+
 .banner-overlay {
   position: absolute;
   top: 0;
@@ -186,6 +190,12 @@ ul.top-nav a {
 .banner-bottom-right {
   bottom: 6px;
   right: 10px;
+}
+
+@media screen and (max-width: 840px) {
+  .banner-overlay span {
+    font-size: 7em;
+  }
 }
 
 @media screen and (max-width: 720px) {
