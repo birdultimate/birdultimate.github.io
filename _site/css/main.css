@@ -24,7 +24,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 100%; 
+}
 
 p { margin: 1em 0; }
 
@@ -126,6 +127,19 @@ ul.top-nav a {
   padding: 2em 0.25em;
 }
 
+.content-section .section-title {
+  font-size: 3em;
+  font-weight: normal;
+  line-height: 1.2em;
+}
+
+@media screen and (max-width: 480px) {
+  .content-section .section-title {
+    font-size: 2em;
+    line-height: 1.2em;
+  }
+}
+
 .content-section.last{
   padding-bottom: 6em;
 }
@@ -224,6 +238,16 @@ ul.top-nav a {
 
 .news {
   background: #F7F7F7;
+}
+
+/*****************************************************************************/
+/*
+/* Schedule & Results
+/*
+/*****************************************************************************/
+
+.results {
+  background: #FFF;
 }
 
 /*****************************************************************************/
