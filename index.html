@@ -28,6 +28,19 @@ title: Bird Ultimate
 <div class="team">
 	<div class="content-container content-section">
 		<h1>meet the team</h1>
+		{% for player in site.data.players %}
+		  <div class="player-container">
+		  	<img src="/assets/images/headshot_default.png">
+		  	<div class="player-overlay">
+		  		<span class="number">{{ player.number }}</span>
+		  		<div class="name">
+		  			<p class="first">{{ player.nameFirst }}</p>
+		  			<p class="last">{{ player.nameLast }}</p>
+		  		</div>
+		  	</div>
+		  </div>
+		{% endfor %}
+		<div class="clear-all"><!-- --></div>
 	</div>
 </div>
 <a name="about"></a>

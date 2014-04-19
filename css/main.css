@@ -38,6 +38,10 @@ img {
   height: auto;
 }
 
+.clear-all {
+  clear: both;
+}
+
 /*****************************************************************************/
 /*
 /* Site
@@ -210,3 +214,96 @@ ul.top-nav a {
   }
 }
 
+/*****************************************************************************/
+/*
+/* News
+/*
+/*****************************************************************************/
+
+.news {
+  background: #F7F7F7;
+}
+
+/*****************************************************************************/
+/*
+/* Players
+/*
+/*****************************************************************************/
+
+.player-container {
+  position: relative;
+  background: #F7F7F7;
+  width: 22.49%;
+  margin: 1.25%;
+  float: left;
+}
+
+@media screen and (max-width: 720px) {
+  .player-container {
+    background: #F7F7F7;
+    width: 30%;
+    margin: 1.65%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .player-container {
+    background: #F7F7F7;
+    width: 45%;
+    margin: 2.49%;
+  }
+}
+
+.player-container img {
+  width: 100%;
+  display: block;
+}
+
+.player-overlay {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  background: rgba(0, 122, 255, 0.6);
+  color: #FFF;
+  overflow: hidden;
+}
+
+.player-container:hover .player-overlay {
+  display: block;
+}
+
+.player-overlay .number {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  font-weight: bold;
+  font-size: 9em;
+  line-height: 1.0em;
+  color: rgba(255, 255, 255, 0.125);
+  text-align: center;
+} 
+
+.player-overlay .name {
+  position: absolute;
+  display: block;
+  left: 0;
+  right:0;
+  bottom: 0;
+}
+
+.player-overlay .name p {
+  padding: 0 10px;
+  font-size: 1.6em;
+  margin: 0.25em 0;
+  line-height: 1em;
+}
+
+.player-overlay .name p.last {
+  font-weight: bold;
+}
