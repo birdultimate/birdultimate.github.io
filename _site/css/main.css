@@ -164,6 +164,7 @@ ul.top-nav a {
 
 .page-banner img {
   width: 100%;
+  display: block;
 }
 
 .banner-overlay {
@@ -180,6 +181,7 @@ ul.top-nav a {
 
 .banner-overlay span {
   position: absolute;
+  display: block;
   color: #FFF;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
   font-size: 8em;
