@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <div class="header">
       <div class="content-container">
         <a class="logo" href="/#top">
@@ -297,10 +305,16 @@
 			<input id="contact-form-submit" type='button' value='submit' />
 			<div class="clear-all"><!-- --></div>
 		</div>
-		<p>
-			Find a bug, or have a suggestion about how to improve this site?
-			<a href="https://github.com/birdultimate/birdultimate.github.io/issues/new">Report it on GitHub</a>.
-		</p>
+		<div class="form-section">
+			<div class="fb-like-box" data-href="https://www.facebook.com/BirdUltimate" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+		</div>
+		<div class="form-section">
+			<p class="centered">
+				Find a bug, or have a suggestion about how to improve this site?
+				<a href="https://github.com/birdultimate/birdultimate.github.io/issues/new">Report it on GitHub</a>.
+			</p>
+		</div>
+		<div class="clear-all"><!-- --></div>
 	</div>
 </div>
 

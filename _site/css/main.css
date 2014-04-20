@@ -43,6 +43,10 @@ img {
   clear: both;
 }
 
+.centered {
+  text-align: center;
+}
+
 /*****************************************************************************/
 /*
 /* Site
@@ -377,6 +381,7 @@ input[type="submit"]:hover {
 .form-section {
   float: left;
   margin: 2.49%;
+  width: 45%;
 }
 
 .form-section.narrow {
@@ -388,6 +393,7 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 480px) {
+  .form-section,
   .form-section.narrow, 
   .form-section.wide {
     width: 95%;
@@ -412,6 +418,40 @@ input[type="submit"]:hover {
 @media screen and (max-width: 480px) {
   #contact-form-submit {
     width: 95%;
+  }
+}
+
+#fb-root {
+    display: none;
+}
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}
+
+.fb-like-box > span,
+.fb-like-box > span > iframe {
+  height: 241px !important;
+}
+
+@media screen and (max-width: 630px) {
+  .fb-like-box > span,
+  .fb-like-box > span > iframe {
+    height: 291px !important;
+  }
+}
+
+@media screen and (max-width: 516px) {
+  .fb-like-box > span,
+  .fb-like-box > span > iframe {
+    height: 341px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .fb-like-box > span,
+  .fb-like-box > span > iframe {
+    height: 241px !important;
   }
 }
 
