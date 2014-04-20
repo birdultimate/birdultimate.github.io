@@ -168,6 +168,33 @@ ul.top-nav a {
 
 /*****************************************************************************/
 /*
+/* Buttons
+/*
+/*****************************************************************************/
+
+button,
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 6px 24px;
+  border: none;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #FFF;
+  cursor: pointer;
+  background: #8E8E93;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+  background: #C7C7CC;
+}
+
+/*****************************************************************************/
+/*
 /* Banner
 /*
 /*****************************************************************************/
@@ -333,3 +360,59 @@ ul.top-nav a {
 .player-overlay .name p.last {
   font-weight: bold;
 }
+
+/*****************************************************************************/
+/*
+/* Contact Form
+/*
+/*****************************************************************************/
+
+.form-validation-msgs ul {
+  display: none;
+  list-style-position: inside;
+  color: #FF3B30;
+  margin: 2.49% 2.49% 0;
+}
+
+.form-section {
+  float: left;
+  margin: 2.49%;
+}
+
+.form-section.narrow {
+  width: 30%;
+}
+
+.form-section.wide {
+  width: 60%;
+}
+
+@media screen and (max-width: 480px) {
+  .form-section.narrow, 
+  .form-section.wide {
+    width: 95%;
+  }
+}
+
+.form-section input[type="text"],
+.form-section textarea {
+  width: 100%;
+}
+
+.form-section textarea {
+  resize: none;
+  height: 16em;
+}
+
+#contact-form-submit {
+  float: right;
+  margin: 0 2.49%;
+}
+
+@media screen and (max-width: 480px) {
+  #contact-form-submit {
+    width: 95%;
+  }
+}
+
+
