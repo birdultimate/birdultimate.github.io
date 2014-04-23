@@ -20,6 +20,11 @@ title: Bird Ultimate
 		  <div class="post">
 		    <h2 class="post-title">{{ post.title }}</h2>
 		    <p class="meta">Posted on {{ post.date | date_to_string }} by {{ post.author }}</p>
+		    <a href="http://www.facebook.com/sharer.php?u=http://www.google.com" target="_blank">Facebook</a>
+		    <a href="http://twitter.com/share?url=http://www.google.com" target="_blank">Twitter</a>
+		    <a href="https://plus.google.com/share?url=http://www.google.com" target="_blank">Google+</a>
+		    <a href="http://reddit.com/submit?url=http://www.google.com&title=The Google Machine" target="_blank">Reddit</a>
+		    <a href="mailto:?Subject=The Google Machine&Body=I%20saw%20this%20and%20thought%20of%20you!%20 http://www.google.com">Email</a>
 		    <div class="post-excerpt">
 		    	{{ post.excerpt }}
 		    	<input class="post-read-more" type="button" value="read more"/>
