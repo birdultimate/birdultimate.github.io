@@ -135,6 +135,7 @@ ul.top-nav a {
   font-size: 3em;
   font-weight: normal;
   line-height: 1.2em;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 480px) {
@@ -269,6 +270,48 @@ input[type="submit"]:hover {
 
 .news {
   background: #F7F7F7;
+}
+
+.post {
+  background: #FFF;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.post .post-title {
+  font-size: 2em;
+  line-height: 1.2em;
+  text-align: left;
+  font-weight: normal;
+  color: #007AFF;
+}
+
+.post .meta {
+  color: #8E8E93;
+  margin: 0;
+}
+
+.post .post-content,
+.post.expanded .post-excerpt {
+  display: none;
+}
+
+.post.expanded .post-content,
+.post .post-excerpt {
+  display: block;
+}
+
+.post .post-read-more,
+.post .post-read-less {
+  font-size: 0.8em;
+}
+
+@media screen and (max-width: 480px) {
+  .post .post-read-more,
+  .post .post-read-less {
+    width: 100%;
+  }
 }
 
 /*****************************************************************************/

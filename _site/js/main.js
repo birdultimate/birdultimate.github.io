@@ -86,6 +86,14 @@ var BU = {
 			}
 		},
 
+		readLessClick: function(event) {
+			$(event.currentTarget).closest(".post").removeClass("expanded");
+		},
+
+		readMoreClick: function(event) {
+			$(event.currentTarget).closest(".post").addClass("expanded");
+		},
+
 		scrollToAnchor: function(anchor) {
 			if (location.pathname.replace(/^\//,'') == anchor.pathname.replace(/^\//,'') 
 	            || location.hostname == anchor.hostname) {
@@ -107,6 +115,14 @@ var BU = {
 		$('a[href*=#]:not([href=#])').on("click", function(event) {
 			event.preventDefault();
 			BU.events.scrollToAnchor(this);
+		});
+
+		$(".post").on("click", ".post-read-less", function(event) {
+			BU.events.readLessClick(event);
+		});
+
+		$(".post").on("click", ".post-read-more", function(event) {
+			BU.events.readMoreClick(event);
 		});
 
 		$("#contact-form-submit").on("click", function(event) {
