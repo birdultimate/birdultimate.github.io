@@ -314,6 +314,18 @@ input[type="submit"]:hover {
   }
 }
 
+.post-share-button {
+  display: inline-block;
+}
+
+.post-share-button img {
+  display: block;
+}
+
+.share-fb {
+  background: #3B5995;
+}
+
 /*****************************************************************************/
 /*
 /* Schedule & Results
