@@ -282,6 +282,7 @@ input[type="submit"]:hover {
 .post .post-title {
   font-size: 2em;
   line-height: 1.2em;
+  margin-bottom: 0.125em;
   text-align: left;
   font-weight: normal;
   color: #007AFF;
@@ -289,7 +290,7 @@ input[type="submit"]:hover {
 
 .post .meta {
   color: #8E8E93;
-  margin: 0;
+  margin: 0 0 0.25em;
 }
 
 .post .post-content,
@@ -316,6 +317,7 @@ input[type="submit"]:hover {
 
 .post-share-button {
   display: inline-block;
+  padding: 2px 2px;
 }
 
 .post-share-button img {
@@ -324,6 +326,22 @@ input[type="submit"]:hover {
 
 .share-fb {
   background: #3B5995;
+}
+
+.share-tw {
+  background: #2EA7DE;
+}
+
+.share-gp {
+  background: #E24A33;
+}
+
+.share-rd {
+  background: #000;
+}
+
+.share-em {
+  background: #C7C7CC;
 }
 
 /*****************************************************************************/
