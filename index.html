@@ -41,6 +41,16 @@ title: Bird Ultimate
 <div class="results">
 	<div class="content-container content-section">
 		<h1 class="section-title">schedule & results</h1>
+		<p>At this time we have not set our tournament schedule for the year. We will likely be attending some subset of the following events:</p>
+		<ul>
+			{% for tournament in site.data.tournaments %}
+				<li>
+					{{ tournament.name }},
+					{{ tournament.date }},
+					{{ tournament.location }}
+				</li>
+			{% endfor %}
+		</ul>
 	</div>
 </div>
 <a name="team"></a>

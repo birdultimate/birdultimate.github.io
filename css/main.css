@@ -354,6 +354,10 @@ input[type="submit"]:hover {
   background: #FFF;
 }
 
+.results ul {
+  list-style-position: inside;
+}
+
 /*****************************************************************************/
 /*
 /* Players
