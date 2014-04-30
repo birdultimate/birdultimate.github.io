@@ -1,8 +1,8 @@
 BU.playbook = {
 
 	currentDragPlayer: "",
-
 	currentFieldState: null,
+	currentPlay: [],
 
 	fieldStates: {
 		sevenOn: {
@@ -83,21 +83,50 @@ BU.playbook = {
 		}
 	},
 
-	loadFieldState: function(fieldState) {
+	captureFieldState: function() {
+		var fieldWidth = parseInt($(".field-overlay").css("width"), 10);
+		var fieldHeight = parseInt($(".field-overlay").css("height"), 10);
+
+		var state = {
+			playersDark: [],
+			playersLight: []
+		};
+
+		$(".player").each(function() {
+			var x = parseInt($(this).css("left"), 10) * 120 / fieldWidth;
+			var y = parseInt($(this).css("top"), 10) * 40 / fieldHeight;
+
+			var player = {
+				id: $(this).attr("id"),
+				xYards: x,
+				yYards: y
+			};
+			if ($(this).is(".dark")) {
+				state.playersDark.push(player);
+			} else if ($(this).is(".light")) {
+				state.playersLight.push(player);
+			}
+			
+		});
+
+		return state;
+	},
+
+	displayFieldState: function(fieldState) {
 		var fieldWidth = parseInt($(".field-overlay").css("width"), 10);
 		var fieldHeight = parseInt($(".field-overlay").css("height"), 10);
 
 		if (fieldState && fieldState.playersDark && fieldState.playersLight) {
 			$.each(fieldState.playersDark, function(key, player) {
-				BU.playbook.setPlayerSizeAndLocation(player, fieldWidth, fieldHeight);
+				BU.playbook.displayPlayer(player, fieldWidth, fieldHeight);
 			});
 			$.each(fieldState.playersLight, function(key, player) {
-				BU.playbook.setPlayerSizeAndLocation(player, fieldWidth, fieldHeight);
+				BU.playbook.displayPlayer(player, fieldWidth, fieldHeight);
 			});
 		}
 	},
 
-	setPlayerSizeAndLocation: function(player, fieldWidth, fieldHeight) {
+	displayPlayer: function(player, fieldWidth, fieldHeight) {
 		
 		var x = 0;
 		if (player.xYards) {
@@ -116,36 +145,13 @@ BU.playbook = {
 
 	events: {
 
+		addFieldStateToPlay: function() {
+			BU.playbook.currentPlay.push(BU.playbook.captureFieldState());
+		},
+
 		allowDrop: function(e) {
 			e.preventDefault();
 		},
-
-		captureFieldState: function() {
-			var fieldWidth = parseInt($(".field-overlay").css("width"), 10);
-			var fieldHeight = parseInt($(".field-overlay").css("height"), 10);
-			console.log(fieldWidth, fieldHeight);
-			var state = {
-				playersDark: [],
-				playersLight: []
-			};
-			$(".player").each(function() {
-				var x = parseInt($(this).css("left"), 10) * 120 / fieldWidth;
-				var y = parseInt($(this).css("top"), 10) * 40 / fieldHeight;
-
-				var player = {
-					id: $(this).attr("id"),
-					xYards: x,
-					yYards: y
-				};
-				if ($(this).is(".dark")) {
-					state.playersDark.push(player);
-				} else if ($(this).is(".light")) {
-					state.playersLight.push(player);
-				}
-				
-			});
-			return state;
-		},	
 
 		drag: function(e) {
 			BU.playbook.currentDragPlayer = $(e.target).attr("id");
@@ -157,17 +163,18 @@ BU.playbook = {
 			if ($(e.originalEvent.target).is(".field-overlay")) {
 				var player = $("#"+BU.playbook.currentDragPlayer+"");
 				player.css({top: e.originalEvent.layerY-10, left: e.originalEvent.layerX-10});
-				BU.playbook.currentFieldState = BU.playbook.events.captureFieldState();
+				BU.playbook.currentFieldState = BU.playbook.captureFieldState();
 			}
 		},
 
 		resetClick: function() {
+			BU.playbook.currentPlay = [];
 			BU.playbook.currentFieldState = BU.playbook.fieldStates.sevenOn;
-			BU.playbook.loadFieldState(BU.playbook.currentFieldState);
+			BU.playbook.displayFieldState(BU.playbook.currentFieldState);
 		},
 
 		resizeField: function() {
-			BU.playbook.loadFieldState(BU.playbook.currentFieldState);
+			BU.playbook.displayFieldState(BU.playbook.currentFieldState);
 		}
 	},
 
@@ -185,8 +192,8 @@ BU.playbook = {
 			BU.playbook.events.drop(e);
 		});
 
-		$(".playbook").on("click", "#playbook-capture-button", function(e) {
-			BU.playbook.events.captureFieldState();
+		$(".playbook").on("click", "#playbook-add-state-button", function(e) {
+			BU.playbook.events.addFieldStateToPlay();
 		});
 
 		$(".playbook").on("click", "#playbook-reset-button", function(e) {
@@ -200,7 +207,7 @@ BU.playbook = {
 	
 	init: function() {
 		BU.playbook.bindEvents();
-		BU.playbook.loadFieldState(BU.playbook.fieldStates.sevenOn);
+		BU.playbook.displayFieldState(BU.playbook.fieldStates.sevenOn);
 	}
 };
 
