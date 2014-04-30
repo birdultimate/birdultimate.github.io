@@ -2,6 +2,8 @@ BU.playbook = {
 
 	currentDragPlayer: "",
 
+	currentFieldState: null,
+
 	fieldStates: {
 		sevenOn: {
 			playersDark: [
@@ -87,15 +89,15 @@ BU.playbook = {
 
 		if (fieldState && fieldState.playersDark && fieldState.playersLight) {
 			$.each(fieldState.playersDark, function(key, player) {
-				BU.playbook.setPlayerLocation(player, fieldWidth, fieldHeight);
+				BU.playbook.setPlayerSizeAndLocation(player, fieldWidth, fieldHeight);
 			});
 			$.each(fieldState.playersLight, function(key, player) {
-				BU.playbook.setPlayerLocation(player, fieldWidth, fieldHeight);
+				BU.playbook.setPlayerSizeAndLocation(player, fieldWidth, fieldHeight);
 			});
 		}
 	},
 
-	setPlayerLocation: function(player, fieldWidth, fieldHeight) {
+	setPlayerSizeAndLocation: function(player, fieldWidth, fieldHeight) {
 		
 		var x = 0;
 		if (player.xYards) {
@@ -107,7 +109,9 @@ BU.playbook = {
 			y = player.yYards * fieldHeight / 40;
 		}
 
-		$("#"+player.id).css({top: y, left: x});
+		var w = (fieldWidth / 48).toString().concat("px"); 
+
+		$("#"+player.id).css({width: w, top: y, left: x});
 	},
 
 	events: {
@@ -140,7 +144,7 @@ BU.playbook = {
 				}
 				
 			});
-			console.log(state);
+			return state;
 		},	
 
 		drag: function(e) {
@@ -153,11 +157,17 @@ BU.playbook = {
 			if ($(e.originalEvent.target).is(".field-overlay")) {
 				var player = $("#"+BU.playbook.currentDragPlayer+"");
 				player.css({top: e.originalEvent.layerY-10, left: e.originalEvent.layerX-10});
+				BU.playbook.currentFieldState = BU.playbook.events.captureFieldState();
 			}
 		},
 
 		resetClick: function() {
-			BU.playbook.loadFieldState(BU.playbook.fieldStates.sevenOn);
+			BU.playbook.currentFieldState = BU.playbook.fieldStates.sevenOn;
+			BU.playbook.loadFieldState(BU.playbook.currentFieldState);
+		},
+
+		resizeField: function() {
+			BU.playbook.loadFieldState(BU.playbook.currentFieldState);
 		}
 	},
 
@@ -182,6 +192,10 @@ BU.playbook = {
 		$(".playbook").on("click", "#playbook-reset-button", function(e) {
 			BU.playbook.events.resetClick();
 		});
+
+		$(window).on("resize", function() {
+			BU.playbook.events.resizeField();
+		})
 	},
 	
 	init: function() {
