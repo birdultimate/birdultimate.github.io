@@ -190,6 +190,11 @@ BU.playbook = {
 
 	isValidFieldState: function(fieldState) {
 		var valid = true;
+
+		if (!(fieldState.disc && fieldState.disc.id && 
+				fieldState.disc.xYards && fieldState.disc.yYards )) {
+			valid = false;
+		}
 		
 		if (valid && !BU.playbook.isValidPlayerList(fieldState.playersLight)) {
 			valid = false;
@@ -248,14 +253,10 @@ BU.playbook = {
 			var complete = function(){
 				BU.playbook.updateViewerStateInfo();
 			};
+			BU.playbook.displayFieldObject(newState.disc, fieldWidth, fieldHeight, "disc", true, complete);
 			$.each(players, function(key, player) {
-				if (key === 0) {
-					BU.playbook.displayFieldObject(player, fieldWidth, fieldHeight, "player", true, complete);
-				} else {
-					BU.playbook.displayFieldObject(player, fieldWidth, fieldHeight, "player", true);
-				}
+				BU.playbook.displayFieldObject(player, fieldWidth, fieldHeight, "player", true);
 			});
-			BU.playbook.displayFieldObject(newState.disc, fieldWidth, fieldHeight, "disc", true);
 		}
 	},
 
@@ -318,6 +319,23 @@ BU.playbook = {
 
 		resizeField: function() {
 			BU.playbook.displayFieldState(BU.playbook.currentFieldState);
+		},
+
+		stepClick: function(direction) {
+			console.log("Step click", direction);
+			if (BU.playbook.isValidPlay(BU.playbook.viewerCurrentPlay)) {
+				if (direction === "next") {
+					if (BU.playbook.viewerCurrentStateIndex === 0 &&
+							!BU.playbook.viewerInProgress) {
+						BU.playbook.displayFieldState(BU.playbook.viewerCurrentPlay[0]);
+						BU.playbook.viewerInProgress = true;
+					} else {
+						BU.playbook.transitionToFieldState(BU.playbook.viewerCurrentPlay[BU.playbook.viewerCurrentStateIndex+1]);
+					}
+				} else if (direction === "back") {
+
+				}
+			}
 		}
 	},
 
@@ -349,6 +367,14 @@ BU.playbook = {
 
 		$(".playbook").on("click", "#playbook-reset-button", function(e) {
 			BU.playbook.events.resetClick();
+		});
+
+		$(".playbook").on("click", "#playbook-step-bw-button", function(e) {
+			BU.playbook.events.stepClick("back");
+		});
+
+		$(".playbook").on("click", "#playbook-step-fw-button", function(e) {
+			BU.playbook.events.stepClick("next");
 		});
 
 		$(window).on("resize", function() {
