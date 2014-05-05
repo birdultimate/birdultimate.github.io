@@ -1,6 +1,6 @@
 BU.playbook = {
 
-	currentDragPlayer: "",
+	currentDragObject: "",
 	currentFieldState: null,
 	currentPlay: [],
 	viewerCurrentPlay: [],
@@ -9,6 +9,11 @@ BU.playbook = {
 
 	fieldStates: {
 		sevenOn: {
+			disc: {
+				id: "disc",
+				xYards: 59,
+				yYards: 19
+			},
 			playersDark: [
 				{
 					id: "player-dark-1",
@@ -91,6 +96,11 @@ BU.playbook = {
 		var fieldHeight = parseInt($(".field-overlay").css("height"), 10);
 
 		var state = {
+			disc: {
+				id: "disc",
+				xYards: parseInt($("#disc").css("left"), 10) * 120 / fieldWidth,
+				yYards: parseInt($("#disc").css("top"), 10) * 40 / fieldHeight,
+			},
 			playersDark: [],
 			playersLight: []
 		};
@@ -115,35 +125,50 @@ BU.playbook = {
 		return state;
 	},
 
+	displayFieldObject: function(object, fieldWidth, fieldHeight, type, animate, animateCallback) {
+		
+		var x = 0;
+		if (object.xYards) {
+			x = object.xYards * fieldWidth / 120;
+		}
+
+		var y = 0;
+		if (object.yYards) {
+			y = object.yYards * fieldHeight / 40;
+		}
+
+		var w = "20px";
+		if (type === "player") {
+			w = (fieldWidth / 48).toString().concat("px"); 
+		} else  if (type === "disc") {
+			w = (fieldWidth / 72).toString().concat("px");
+		}
+
+		if (animate) {
+			$("#"+object.id).animate({width: w, top: y, left: x}, {
+				duration: 2000,
+				easing: "linear", 
+				complete: animateCallback
+			});
+		} else {
+			$("#"+object.id).css({width: w, top: y, left: x});
+		}
+	},
+
 	displayFieldState: function(fieldState) {
 		var fieldWidth = parseInt($(".field-overlay").css("width"), 10);
 		var fieldHeight = parseInt($(".field-overlay").css("height"), 10);
 
+		BU.playbook.displayFieldObject(fieldState.disc, fieldWidth, fieldHeight, "disc");
+
 		if (fieldState && fieldState.playersDark && fieldState.playersLight) {
 			$.each(fieldState.playersDark, function(key, player) {
-				BU.playbook.displayPlayer(player, fieldWidth, fieldHeight);
+				BU.playbook.displayFieldObject(player, fieldWidth, fieldHeight, "player");
 			});
 			$.each(fieldState.playersLight, function(key, player) {
-				BU.playbook.displayPlayer(player, fieldWidth, fieldHeight);
+				BU.playbook.displayFieldObject(player, fieldWidth, fieldHeight, "player");
 			});
 		}
-	},
-
-	displayPlayer: function(player, fieldWidth, fieldHeight) {
-		
-		var x = 0;
-		if (player.xYards) {
-			x = player.xYards * fieldWidth / 120;
-		}
-
-		var y = 0;
-		if (player.yYards) {
-			y = player.yYards * fieldHeight / 40;
-		}
-
-		var w = (fieldWidth / 48).toString().concat("px"); 
-
-		$("#"+player.id).css({width: w, top: y, left: x});
 	},
 
 	executePlay: function(play, resume, fromIndex) {
@@ -214,31 +239,23 @@ BU.playbook = {
 	},
 
 	transitionToFieldState: function(newState) {
-		var deferred = new $.Deferred();
-		deferred.promise();
 
 		var fieldWidth = parseInt($(".field-overlay").css("width"), 10);
 		var fieldHeight = parseInt($(".field-overlay").css("height"), 10);
 
 		if (BU.playbook.isValidFieldState(newState)) {
 			var players = $.merge($.merge([], newState.playersLight), newState.playersDark);
+			var complete = function(){
+				BU.playbook.updateViewerStateInfo();
+			};
 			$.each(players, function(key, player) {
-
-				var x = player.xYards * fieldWidth / 120;
-
-				var y = player.yYards * fieldHeight / 40;
-
 				if (key === 0) {
-					$("#"+player.id).animate({top: y, left: x}, {
-						duration: 2000, 
-						complete: function(){
-							BU.playbook.updateViewerStateInfo();
-						}
-					});
+					BU.playbook.displayFieldObject(player, fieldWidth, fieldHeight, "player", true, complete);
 				} else {
-					$("#"+player.id).animate({top: y, left: x}, 2000);
+					BU.playbook.displayFieldObject(player, fieldWidth, fieldHeight, "player", true);
 				}
 			});
+			BU.playbook.displayFieldObject(newState.disc, fieldWidth, fieldHeight, "disc", true);
 		}
 	},
 
@@ -270,15 +287,17 @@ BU.playbook = {
 		},
 
 		drag: function(e) {
-			BU.playbook.currentDragPlayer = $(e.target).attr("id");
+			BU.playbook.currentDragObject = $(e.target).attr("id");
 		},
 
 		drop: function(e) {
 			e.preventDefault();
-			//console.log("drop", BU.playbook.currentDragPlayer, e.originalEvent);
+			//console.log("drop", BU.playbook.currentDragObject, e.originalEvent);
 			if ($(e.originalEvent.target).is(".field-overlay")) {
-				var player = $("#"+BU.playbook.currentDragPlayer+"");
-				player.css({top: e.originalEvent.layerY-10, left: e.originalEvent.layerX-10});
+				var object = $("#"+BU.playbook.currentDragObject+"");
+				var offset = parseInt(object.css("width")) / 2;
+				object.css({top: e.originalEvent.layerY-offset, left: e.originalEvent.layerX-offset});
+				BU.playbook.currentDragObject = "";
 				BU.playbook.currentFieldState = BU.playbook.captureFieldState();
 			}
 		},
@@ -304,7 +323,7 @@ BU.playbook = {
 
 	bindEvents: function() {
 
-		$(".playbook").on("dragstart", ".player", function(e) {
+		$(".playbook").on("dragstart", "#disc, .player", function(e) {
 			BU.playbook.events.drag(e);
 		});
 

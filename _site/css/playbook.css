@@ -15,8 +15,17 @@
 	right: 0;
 }
 
+.field-overlay #disc,
 .field-overlay .player {
 	position: absolute;
 	top: 0px;
 	left: 0px;
+}
+
+button.control {
+	padding: 12px;
+}
+
+button.control img {
+	display: block;
 }
