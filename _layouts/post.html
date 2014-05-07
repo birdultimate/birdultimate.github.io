@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-{{ content }}
+<div class="content-container content-section">
+	<div class="post">
+		<h2 class="post-title">{{ page.title }}</h2>
+		<p class="meta">Posted on {{ page.date | date_to_string }} by {{ page.author }}</p>
+		<a href="http://www.facebook.com/sharer.php?u=http://www.birdultimate.com{{ page.url }}" target="_blank" class="post-share-button share-fb"><img src="/assets/images/social-icon-fb.png" title="Share on Facebook"/></a>
+		<a href="http://twitter.com/share?url=http://www.birdultimate.com{{ page.url }}" target="_blank" class="post-share-button share-tw" title="Share on Twitter"><img src="/assets/images/social-icon-tw.png"/></a>
+		<a href="https://plus.google.com/share?url=http://www.birdultimate.com{{ page.url }}" target="_blank" class="post-share-button share-gp"><img src="/assets/images/social-icon-gp.png" title="Share on Google+"/></a>
+		<a href="http://reddit.com/submit?url=http://www.birdultimate.com{{ page.url }}&title={{ page.title }}" target="_blank" class="post-share-button share-rd"><img src="/assets/images/social-icon-rd.png" title="Post to Reddit"/></a>
+		<a href="mailto:?Subject={{ page.title }}&Body=http://www.birdultimate.com{{ page.url }}" class="post-share-button share-em"><img src="/assets/images/social-icon-em.png" title="Email"/></a>
+		{{ content }}
+	</div>
 </div>
