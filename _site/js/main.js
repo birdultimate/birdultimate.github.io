@@ -96,16 +96,18 @@ var BU = {
 
 		scrollToAnchor: function(anchor) {
 			if (location.pathname.replace(/^\//,'') == anchor.pathname.replace(/^\//,'') 
-	            || location.hostname == anchor.hostname) {
-	          var target = $(anchor.hash);
-	          target = target.length ? target : $('[name=' + anchor.hash.slice(1) +']');
-	          if (target.length) {
-	            $('html,body').animate({
-	              scrollTop: target.offset().top - BU.HEADER_OFFSET
-	            }, 1000);
-	            return false;
-	          }
-	        }
+	        || location.hostname == anchor.hostname) {
+	      var target = $(anchor.hash);
+	      target = target.length ? target : $('[name=' + anchor.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top - BU.HEADER_OFFSET
+	        }, 1000);
+	        return false;
+	      } else {
+	        window.location = anchor.href;
+	      }
+	    }
 		}
 
 	},
