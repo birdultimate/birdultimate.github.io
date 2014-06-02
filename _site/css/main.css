@@ -355,10 +355,30 @@ input[type="submit"]:hover {
 
 .results {
   background: #FFF;
+  position: relative;
+}
+
+.results img {
+  width: 100%;
+  height: auto;
+}
+
+.results-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .results ul {
   list-style-position: inside;
+}
+
+.results ul li{
+  margin: 0.5em 0;
 }
 
 /*****************************************************************************/
