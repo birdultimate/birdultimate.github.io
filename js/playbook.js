@@ -3,6 +3,7 @@ BU.playbook = {
 	currentDragObject: "",
 	currentFieldState: null,
 	currentPlay: [],
+	magicWord: "B1rd2014",
 	viewerCurrentPlay: [],
 	viewerInProgress: false,
 	viewerCurrentStateIndex: 0,
@@ -204,6 +205,15 @@ BU.playbook = {
 		}
 	},
 
+	hasAuthToken: function() {
+		return $.cookie("authToken") === "BUFC-2K14";
+	},
+
+	initLoggedInView: function() {
+		BU.playbook.initPlaySelect();
+		BU.playbook.displayFieldState(BU.playbook.fieldStates.sevenOn);
+	},
+
 	initPlaySelect: function() {
 		var select = $("#play-select");
 		select.append("<option value=''>Select a Play</option>");
@@ -269,6 +279,16 @@ BU.playbook = {
 		return valid;
 	},
 
+	logIn: function() {
+		$("#playbook").addClass("logged-in");
+		BU.playbook.setAuthToken();
+		BU.playbook.initLoggedInView();
+	},
+
+	setAuthToken: function() {
+		$.cookie('authToken', 'BUFC-2K14', { expires: 30, path: '/' });
+	},
+
 	transitionToFieldState: function(newState) {
 
 		var fieldWidth = parseInt($(".field-overlay").css("width"), 10);
@@ -293,6 +313,14 @@ BU.playbook = {
 			$("#playbook-play-button").show();
 			BU.playbook.viewerCurrentStateIndex = 0;
 			BU.playbook.viewerInProgress = false;
+		}
+	},
+
+	validPassword: function(password) {
+		if (password === BU.playbook.magicWord) {
+			return true;
+		} else {
+			return false;
 		}
 	},
 
@@ -326,6 +354,13 @@ BU.playbook = {
 				object.css({top: e.originalEvent.layerY-offset, left: e.originalEvent.layerX-offset});
 				BU.playbook.currentDragObject = "";
 				BU.playbook.currentFieldState = BU.playbook.captureFieldState();
+			}
+		},
+
+		passwordSubmitClick: function() {
+			
+			if (BU.playbook.validPassword($("#playbook-password").val())) {
+				BU.playbook.logIn();
 			}
 		},
 
@@ -375,45 +410,56 @@ BU.playbook = {
 
 	bindEvents: function() {
 
-		$(".playbook").on("dragstart", "#disc, .player", function(e) {
+		$("#playbook").on("dragstart", "#disc, .player", function(e) {
 			BU.playbook.events.drag(e);
 		});
 
-		$(".playbook").on("dragover", ".field-overlay", function(e) {
+		$("#playbook").on("dragover", ".field-overlay", function(e) {
 			BU.playbook.events.allowDrop(e);
 		});
 
-		$(".playbook").on("drop", ".field-overlay", function(e) {
+		$("#playbook").on("drop", ".field-overlay", function(e) {
 			BU.playbook.events.drop(e);
 		});
 
-		$(".playbook").on("change", "#play-select", function() {
+		$("#playbook").on("change", "#play-select", function() {
 			BU.playbook.events.playSelectChange();
 		});
 
-		$(".playbook").on("click", "#playbook-add-state-button", function(e) {
+		$("#playbook").on("click", "#playbook-add-state-button", function(e) {
 			BU.playbook.events.addFieldStateToPlay();
 		});
 
-		$(".playbook").on("click", "#playbook-play-button", function(e) {
+		$("#playbook").on("click", "#playbook-password-submit", function(e) {
+			BU.playbook.events.passwordSubmitClick();
+		});
+
+		$("#playbook").on("click", "#playbook-play-button", function(e) {
 			BU.playbook.events.executePlayClick();
 		});
 
-		$(".playbook").on("click", "#playbook-pause-button", function(e) {
+		$("#playbook").on("click", "#playbook-pause-button", function(e) {
 			BU.playbook.events.pauseClick();
 		});
 
-		$(".playbook").on("click", "#playbook-reset-button", function(e) {
+		$("#playbook").on("click", "#playbook-reset-button", function(e) {
 			BU.playbook.events.resetClick();
 		});
 
-		$(".playbook").on("click", "#playbook-step-bw-button", function(e) {
+		$("#playbook").on("click", "#playbook-step-bw-button", function(e) {
 			BU.playbook.events.stepClick("back");
 		});
 
-		$(".playbook").on("click", "#playbook-step-fw-button", function(e) {
+		$("#playbook").on("click", "#playbook-step-fw-button", function(e) {
 			BU.playbook.events.stepClick("next");
 		});
+
+		$("#playbook").on("keypress", "#playbook-password", function(e) {
+			if (e.which === 13) {
+				BU.playbook.events.passwordSubmitClick();
+			}
+		});
+
 
 		$(window).on("resize", function() {
 			BU.playbook.events.resizeField();
@@ -422,13 +468,14 @@ BU.playbook = {
 	
 	init: function() {
 		BU.playbook.bindEvents();
-		BU.playbook.initPlaySelect();
-		BU.playbook.displayFieldState(BU.playbook.fieldStates.sevenOn);
+		if (BU.playbook.hasAuthToken()) {
+			BU.playbook.logIn();
+		}
 	}
 };
 
 $(document).ready(function() {
-	if ($(".playbook").length) {
+	if ($("#playbook").length) {
 		BU.playbook.init();
 	}
 });

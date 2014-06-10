@@ -3,6 +3,16 @@ h1.section-title sub {
 	color: #007AFF;
 }
 
+#playbook #playbook-logged-in,
+#playbook.logged-in #playbook-login {
+	display: none;
+}
+
+#playbook.logged-in #playbook-logged-in,
+#playbook #playbook-login {
+	display: block;
+}
+
 .field {
 	position: relative;
 	background: #4CD964;
