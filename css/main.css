@@ -37,6 +37,10 @@ img {
   height: auto;
 }
 
+em {
+  font-weight: normal;
+}
+
 .clear-all {
   clear: both;
 }
