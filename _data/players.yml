@@ -1,11 +1,134 @@
+- number: 1
+  nameFirst: Ty
+  nameLast: Thorsen
+  photo: /assets/images/headshot_ty.png
+
+- number: 2
+  nameFirst: Dan
+  nameLast: Hunt
+  photo: /assets/images/headshot_default.png
+
+- number: 3
+  nameFirst: Bryan
+  nameLast: Vohnoutka
+  photo: /assets/images/headshot_bvon.png
+
+- number: 4
+  nameFirst: Emma
+  nameLast: Peaslee
+  photo: /assets/images/headshot_emma.png
+
+- number: 8
+  nameFirst: Clay
+  nameLast: Thomas
+  photo: /assets/images/headshot_clay.png
+
+- number: 9
+  nameFirst: Tavis
+  nameLast: Leighton
+  photo: /assets/images/headshot_tavis.png
+
+- number: 10
+  nameFirst: Tristan
+  nameLast: Grovender
+  photo: /assets/images/headshot_tristan.png
+
+- number: 11
+  nameFirst: Mara
+  nameLast: Saltzman
+  photo: /assets/images/headshot_mara.png
+
+- number: 12
+  nameFirst: Michael
+  nameLast: Ruble
+  photo: /assets/images/headshot_ruble.png
+
+- number: 13
+  nameFirst: Gordy
+  nameLast: Stecklein
+  photo: /assets/images/headshot_gordy.png
+
+- number: 14
+  nameFirst: Katherine
+  nameLast: Zimmermann
+  photo: /assets/images/headshot_kz.png
+
 - number: 15
   nameFirst: Dan
   nameLast: Schmit
+  photo: /assets/images/headshot_dan.png
+
+- number: 17
+  nameFirst: Ryan
+  nameLast: Oto
+  photo: /assets/images/headshot_oto.png
+
+- number: 18
+  nameFirst: Katie
+  nameLast: Claiborne
+  photo: /assets/images/headshot_default.png
+
+- number: 19
+  nameFirst: Brian
+  nameLast: Larson
+  photo: /assets/images/headshot_bri.png
+
+- number: 20
+  nameFirst: Jill
+  nameLast: Merkle
+  photo: /assets/images/headshot_default.png
+
+- number: 21
+  nameFirst: Jana
+  nameLast: Jansen
+  photo: /assets/images/headshot_jana.png
 
 - number: 22
   nameFirst: Tobie
   nameLast: Miller
+  photo: /assets/images/headshot_tobie.png
+
+- number: 23
+  nameFirst: Emily
+  nameLast: Peterson
+  photo: /assets/images/headshot_emily.png
 
 - number: 24
   nameFirst: Andrew
   nameLast: Kelley
+  photo: /assets/images/headshot_rzr.png
+
+- number: 25
+  nameFirst: Hannah
+  nameLast: Masuga
+  photo: /assets/images/headshot_masuga.png
+
+- number: 33
+  nameFirst: Nihal
+  nameLast: Bhakta
+  photo: /assets/images/headshot_default.png
+
+- number: 43
+  nameFirst: Michael
+  nameLast: Loper
+  photo: /assets/images/headshot_loper.png
+
+- number: 44
+  nameFirst: Luke
+  nameLast: Powers
+  photo: /assets/images/headshot_luke.png
+
+- number: 93
+  nameFirst: Justin
+  nameLast: Hill
+  photo: /assets/images/headshot_default.png
+
+- number: 96
+  nameFirst: Brian
+  nameLast: Edgerton
+  photo: /assets/images/headshot_edge.png
+
+- number: 97
+  nameFirst: Andrea
+  nameLast: Uhl
+  photo: /assets/images/headshot_dre.png
