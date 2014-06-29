@@ -92,23 +92,6 @@ BU.playbook = {
 		}
 	},
 
-	plays: {
-		
-		peel: {
-			title: "Peel - Under Option",
-			description: "An offensive set play. Run off the pull, this play has three options: a quick break to the front of the stack, a subsequent deep cut from the front of the stack, and finally an under cut from the back of the stack.",
-			categories: ["offense"],
-			fieldStates: [{"disc":{"id":"disc","xYards":89.25,"yYards":17.625},"playersDark":[{"id":"player-dark-1","xYards":86.125,"yYards":5.625},{"id":"player-dark-2","xYards":87.875,"yYards":21.25},{"id":"player-dark-3","xYards":86.625,"yYards":33.75},{"id":"player-dark-4","xYards":75.375,"yYards":15.75},{"id":"player-dark-5","xYards":70.25,"yYards":15.5},{"id":"player-dark-6","xYards":64.25,"yYards":15.25},{"id":"player-dark-7","xYards":53.5,"yYards":15.375}],"playersLight":[{"id":"player-light-1","xYards":56.875,"yYards":18.75},{"id":"player-light-2","xYards":89,"yYards":2.5},{"id":"player-light-3","xYards":62.875,"yYards":19.125},{"id":"player-light-4","xYards":90,"yYards":19},{"id":"player-light-5","xYards":69.375,"yYards":18.75},{"id":"player-light-6","xYards":74,"yYards":18.5},{"id":"player-light-7","xYards":89.75,"yYards":35.875}]},{"disc":{"id":"disc","xYards":89.25,"yYards":17.625},"playersDark":[{"id":"player-dark-1","xYards":86.125,"yYards":5.625},{"id":"player-dark-2","xYards":87.875,"yYards":21.25},{"id":"player-dark-3","xYards":86.625,"yYards":33.75},{"id":"player-dark-4","xYards":78.375,"yYards":23},{"id":"player-dark-5","xYards":70.25,"yYards":15.5},{"id":"player-dark-6","xYards":64.25,"yYards":15.25},{"id":"player-dark-7","xYards":53.5,"yYards":15.375}],"playersLight":[{"id":"player-light-1","xYards":56.875,"yYards":18.75},{"id":"player-light-2","xYards":89,"yYards":2.5},{"id":"player-light-3","xYards":62.875,"yYards":19.125},{"id":"player-light-4","xYards":90,"yYards":19},{"id":"player-light-5","xYards":69.375,"yYards":18.75},{"id":"player-light-6","xYards":76.5,"yYards":25},{"id":"player-light-7","xYards":89.75,"yYards":35.875}]},{"disc":{"id":"disc","xYards":89.25,"yYards":17.625},"playersDark":[{"id":"player-dark-1","xYards":86.125,"yYards":5.625},{"id":"player-dark-2","xYards":87.875,"yYards":21.25},{"id":"player-dark-3","xYards":86.625,"yYards":33.75},{"id":"player-dark-4","xYards":58.75,"yYards":25.875},{"id":"player-dark-5","xYards":70.25,"yYards":15.5},{"id":"player-dark-6","xYards":64.25,"yYards":15.25},{"id":"player-dark-7","xYards":53.5,"yYards":15.375}],"playersLight":[{"id":"player-light-1","xYards":56.875,"yYards":18.75},{"id":"player-light-2","xYards":89,"yYards":2.5},{"id":"player-light-3","xYards":62.875,"yYards":19.125},{"id":"player-light-4","xYards":90,"yYards":19},{"id":"player-light-5","xYards":69.375,"yYards":18.75},{"id":"player-light-6","xYards":51.75,"yYards":26.25},{"id":"player-light-7","xYards":89.75,"yYards":35.875}]},{"disc":{"id":"disc","xYards":66.5,"yYards":5.875},"playersDark":[{"id":"player-dark-1","xYards":86.125,"yYards":5.625},{"id":"player-dark-2","xYards":87.875,"yYards":21.25},{"id":"player-dark-3","xYards":86.625,"yYards":33.75},{"id":"player-dark-4","xYards":31.75,"yYards":18.875},{"id":"player-dark-5","xYards":70.25,"yYards":15.5},{"id":"player-dark-6","xYards":64.25,"yYards":15.25},{"id":"player-dark-7","xYards":28.5,"yYards":7.75}],"playersLight":[{"id":"player-light-1","xYards":65.875,"yYards":6.875},{"id":"player-light-2","xYards":89,"yYards":2.5},{"id":"player-light-3","xYards":62.875,"yYards":19.125},{"id":"player-light-4","xYards":90,"yYards":19},{"id":"player-light-5","xYards":69.375,"yYards":18.75},{"id":"player-light-6","xYards":28.375,"yYards":13.75},{"id":"player-light-7","xYards":89.75,"yYards":35.875}]}]
-		},
-
-		isoCycle: {
-			title: "Endzone Iso Cycle",
-			description: "A sweet endzone cycle",
-			categories: ["offense"],
-			fieldStates: [{"disc":{"id":"disc","xYards":86.875,"yYards":20.75},"playersDark":[{"id":"player-dark-1","xYards":23.75,"yYards":4},{"id":"player-dark-2","xYards":23.75,"yYards":9},{"id":"player-dark-3","xYards":23.75,"yYards":14},{"id":"player-dark-4","xYards":23.75,"yYards":19},{"id":"player-dark-5","xYards":23.75,"yYards":24},{"id":"player-dark-6","xYards":23.75,"yYards":29},{"id":"player-dark-7","xYards":23.75,"yYards":34}],"playersLight":[{"id":"player-light-1","xYards":88,"yYards":1.625},{"id":"player-light-2","xYards":115.25,"yYards":1.625},{"id":"player-light-3","xYards":115.5,"yYards":18.125},{"id":"player-light-4","xYards":85.875,"yYards":19.125},{"id":"player-light-5","xYards":99.5,"yYards":18.75},{"id":"player-light-6","xYards":114.625,"yYards":36.375},{"id":"player-light-7","xYards":88.25,"yYards":35.5}]},{"disc":{"id":"disc","xYards":86.875,"yYards":20.75},"playersDark":[{"id":"player-dark-1","xYards":23.75,"yYards":4},{"id":"player-dark-2","xYards":23.75,"yYards":9},{"id":"player-dark-3","xYards":23.75,"yYards":14},{"id":"player-dark-4","xYards":23.75,"yYards":19},{"id":"player-dark-5","xYards":23.75,"yYards":24},{"id":"player-dark-6","xYards":23.75,"yYards":29},{"id":"player-dark-7","xYards":23.75,"yYards":34}],"playersLight":[{"id":"player-light-1","xYards":88,"yYards":1.625},{"id":"player-light-2","xYards":115.25,"yYards":1.625},{"id":"player-light-3","xYards":115.5,"yYards":18.125},{"id":"player-light-4","xYards":85.875,"yYards":19.125},{"id":"player-light-5","xYards":97.625,"yYards":27.875},{"id":"player-light-6","xYards":114.625,"yYards":36.375},{"id":"player-light-7","xYards":88.25,"yYards":35.5}]},{"disc":{"id":"disc","xYards":86.875,"yYards":20.75},"playersDark":[{"id":"player-dark-1","xYards":23.75,"yYards":4},{"id":"player-dark-2","xYards":23.75,"yYards":9},{"id":"player-dark-3","xYards":23.75,"yYards":14},{"id":"player-dark-4","xYards":23.75,"yYards":19},{"id":"player-dark-5","xYards":23.75,"yYards":24},{"id":"player-dark-6","xYards":23.75,"yYards":29},{"id":"player-dark-7","xYards":23.75,"yYards":34}],"playersLight":[{"id":"player-light-1","xYards":88,"yYards":1.625},{"id":"player-light-2","xYards":115.25,"yYards":1.625},{"id":"player-light-3","xYards":115.5,"yYards":18.125},{"id":"player-light-4","xYards":85.875,"yYards":19.125},{"id":"player-light-5","xYards":96.625,"yYards":12.25},{"id":"player-light-6","xYards":114.625,"yYards":36.375},{"id":"player-light-7","xYards":88.25,"yYards":35.5}]},{"disc":{"id":"disc","xYards":86.875,"yYards":20.75},"playersDark":[{"id":"player-dark-1","xYards":23.75,"yYards":4},{"id":"player-dark-2","xYards":23.75,"yYards":9},{"id":"player-dark-3","xYards":23.75,"yYards":14},{"id":"player-dark-4","xYards":23.75,"yYards":19},{"id":"player-dark-5","xYards":23.75,"yYards":24},{"id":"player-dark-6","xYards":23.75,"yYards":29},{"id":"player-dark-7","xYards":23.75,"yYards":34}],"playersLight":[{"id":"player-light-1","xYards":88,"yYards":1.625},{"id":"player-light-2","xYards":115.875,"yYards":18.5},{"id":"player-light-3","xYards":101.375,"yYards":18.875},{"id":"player-light-4","xYards":85.875,"yYards":19.125},{"id":"player-light-5","xYards":115,"yYards":1.75},{"id":"player-light-6","xYards":114.625,"yYards":36.375},{"id":"player-light-7","xYards":88.25,"yYards":35.5}]},{"disc":{"id":"disc","xYards":86.875,"yYards":20.75},"playersDark":[{"id":"player-dark-1","xYards":23.75,"yYards":4},{"id":"player-dark-2","xYards":23.75,"yYards":9},{"id":"player-dark-3","xYards":23.75,"yYards":14},{"id":"player-dark-4","xYards":23.75,"yYards":19},{"id":"player-dark-5","xYards":23.75,"yYards":24},{"id":"player-dark-6","xYards":23.75,"yYards":29},{"id":"player-dark-7","xYards":23.75,"yYards":34}],"playersLight":[{"id":"player-light-1","xYards":88,"yYards":1.625},{"id":"player-light-2","xYards":115.875,"yYards":18.5},{"id":"player-light-3","xYards":98,"yYards":10.75},{"id":"player-light-4","xYards":85.875,"yYards":19.125},{"id":"player-light-5","xYards":115,"yYards":1.75},{"id":"player-light-6","xYards":114.625,"yYards":36.375},{"id":"player-light-7","xYards":88.25,"yYards":35.5}]},{"disc":{"id":"disc","xYards":86.875,"yYards":20.75},"playersDark":[{"id":"player-dark-1","xYards":23.75,"yYards":4},{"id":"player-dark-2","xYards":23.75,"yYards":9},{"id":"player-dark-3","xYards":23.75,"yYards":14},{"id":"player-dark-4","xYards":23.75,"yYards":19},{"id":"player-dark-5","xYards":23.75,"yYards":24},{"id":"player-dark-6","xYards":23.75,"yYards":29},{"id":"player-dark-7","xYards":23.75,"yYards":34}],"playersLight":[{"id":"player-light-1","xYards":88,"yYards":1.625},{"id":"player-light-2","xYards":115.875,"yYards":18.5},{"id":"player-light-3","xYards":97.25,"yYards":26.25},{"id":"player-light-4","xYards":85.875,"yYards":19.125},{"id":"player-light-5","xYards":115,"yYards":1.75},{"id":"player-light-6","xYards":114.625,"yYards":36.375},{"id":"player-light-7","xYards":88.25,"yYards":35.5}]},{"disc":{"id":"disc","xYards":86.875,"yYards":20.75},"playersDark":[{"id":"player-dark-1","xYards":23.75,"yYards":4},{"id":"player-dark-2","xYards":23.75,"yYards":9},{"id":"player-dark-3","xYards":23.75,"yYards":14},{"id":"player-dark-4","xYards":23.75,"yYards":19},{"id":"player-dark-5","xYards":23.75,"yYards":24},{"id":"player-dark-6","xYards":23.75,"yYards":29},{"id":"player-dark-7","xYards":23.75,"yYards":34}],"playersLight":[{"id":"player-light-1","xYards":88,"yYards":1.625},{"id":"player-light-2","xYards":102.25,"yYards":17.75},{"id":"player-light-3","xYards":114.75,"yYards":36.25},{"id":"player-light-4","xYards":85.875,"yYards":19.125},{"id":"player-light-5","xYards":115,"yYards":1.75},{"id":"player-light-6","xYards":115.875,"yYards":19.5},{"id":"player-light-7","xYards":88.25,"yYards":35.5}]},{"disc":{"id":"disc","xYards":86.875,"yYards":20.75},"playersDark":[{"id":"player-dark-1","xYards":23.75,"yYards":4},{"id":"player-dark-2","xYards":23.75,"yYards":9},{"id":"player-dark-3","xYards":23.75,"yYards":14},{"id":"player-dark-4","xYards":23.75,"yYards":19},{"id":"player-dark-5","xYards":23.75,"yYards":24},{"id":"player-dark-6","xYards":23.75,"yYards":29},{"id":"player-dark-7","xYards":23.75,"yYards":34}],"playersLight":[{"id":"player-light-1","xYards":88,"yYards":1.625},{"id":"player-light-2","xYards":98.5,"yYards":26.75},{"id":"player-light-3","xYards":114.75,"yYards":36.25},{"id":"player-light-4","xYards":85.875,"yYards":19.125},{"id":"player-light-5","xYards":115,"yYards":1.75},{"id":"player-light-6","xYards":115.875,"yYards":19.5},{"id":"player-light-7","xYards":88.25,"yYards":35.5}]},{"disc":{"id":"disc","xYards":86.875,"yYards":20.75},"playersDark":[{"id":"player-dark-1","xYards":23.75,"yYards":4},{"id":"player-dark-2","xYards":23.75,"yYards":9},{"id":"player-dark-3","xYards":23.75,"yYards":14},{"id":"player-dark-4","xYards":23.75,"yYards":19},{"id":"player-dark-5","xYards":23.75,"yYards":24},{"id":"player-dark-6","xYards":23.75,"yYards":29},{"id":"player-dark-7","xYards":23.75,"yYards":34}],"playersLight":[{"id":"player-light-1","xYards":88,"yYards":1.625},{"id":"player-light-2","xYards":96.5,"yYards":11.125},{"id":"player-light-3","xYards":114.75,"yYards":36.25},{"id":"player-light-4","xYards":85.875,"yYards":19.125},{"id":"player-light-5","xYards":115,"yYards":1.75},{"id":"player-light-6","xYards":115.875,"yYards":19.5},{"id":"player-light-7","xYards":88.25,"yYards":35.5}]}]
-		}
-	},
-
 	captureFieldState: function() {
 		var fieldWidth = parseInt($(".field-overlay").css("width"), 10);
 		var fieldHeight = parseInt($(".field-overlay").css("height"), 10);
@@ -205,6 +188,21 @@ BU.playbook = {
 		}
 	},
 
+	generatePlayOptions: function(play) {
+		var select = $("#play-option-select");
+		select.empty();
+		if (play.options && play.options.length) {
+			$.each(play.options, function(key, value) {
+				select.append($('<option>', {value : key})
+					.text(value.title)
+					.data('playData', value));
+			});
+			select.show();
+		} else {
+			select.hide();
+		}
+	},
+
 	hasAuthToken: function() {
 		return $.cookie("authToken") === "BUFC-2K14";
 	},
@@ -216,8 +214,8 @@ BU.playbook = {
 
 	initPlaySelect: function() {
 		var select = $("#play-select");
-		select.append("<option value=''>Select a Play</option>");
-		$.each(BU.playbook.plays, function(key, value) {
+		select.append("<option id='play-select-prompt' value=''>Select a Play</option>");
+		$.each(BU.plays, function(key, value) {
 			select.append($('<option>', {value : key})
 				.text(value.title)
 				.data('playData', value));
@@ -289,6 +287,10 @@ BU.playbook = {
 		$.cookie('authToken', 'BUFC-2K14', { expires: 30, path: '/' });
 	},
 
+	setPlayDescription: function(desc) {
+		$("#play-description").text(desc);
+	},
+
 	transitionToFieldState: function(newState) {
 
 		var fieldWidth = parseInt($(".field-overlay").css("width"), 10);
@@ -347,7 +349,6 @@ BU.playbook = {
 
 		drop: function(e) {
 			e.preventDefault();
-			//console.log("drop", BU.playbook.currentDragObject, e.originalEvent);
 			if ($(e.originalEvent.target).is(".field-overlay")) {
 				var object = $("#"+BU.playbook.currentDragObject+"");
 				var offset = parseInt(object.css("width")) / 2;
@@ -373,8 +374,23 @@ BU.playbook = {
 		},
 
 		playSelectChange: function() {
+			$("#play-select-prompt").remove();
 			var play = $("#play-select option:selected").data("playData");
 			if (play) {
+				BU.playbook.generatePlayOptions(play);
+				var defaultPlayOption = $("#play-option-select option:selected").data("playData");
+				if (defaultPlayOption) {
+					BU.playbook.setPlayDescription(defaultPlayOption.description);
+					BU.playbook.viewerCurrentPlay = defaultPlayOption.fieldStates;
+					BU.playbook.displayFieldState(BU.playbook.viewerCurrentPlay[0]);
+				}
+			}
+		},
+
+		playOptionSelectChange: function() {
+			var play = $("#play-option-select option:selected").data("playData");
+			if (play) {
+				BU.playbook.setPlayDescription(play.description);
 				BU.playbook.viewerCurrentPlay = play.fieldStates;
 				BU.playbook.displayFieldState(BU.playbook.viewerCurrentPlay[0]);
 			}
@@ -424,6 +440,10 @@ BU.playbook = {
 
 		$("#playbook").on("change", "#play-select", function() {
 			BU.playbook.events.playSelectChange();
+		});
+
+		$("#playbook").on("change", "#play-option-select", function() {
+			BU.playbook.events.playOptionSelectChange();
 		});
 
 		$("#playbook").on("click", "#playbook-add-state-button", function(e) {

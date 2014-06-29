@@ -37,10 +37,30 @@ h1.section-title sub {
 	left: 0px;
 }
 
+#play-controls-container {
+	background: #8E8E93;
+	padding-left: 12px;
+}
+
+#play-select,
+#play-option-select {
+	font-size: 1.8em;
+	margin-top: 12px;
+}
+
+#play-controls {
+	float: right;
+	display: inline-block;
+}
+
 button.control {
 	padding: 12px;
 }
 
 button.control img {
 	display: block;
+}
+
+#play-description {
+	padding: 0 12px;
 }
