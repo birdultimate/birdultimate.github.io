@@ -1,0 +1,42 @@
+.card {
+	margin: 0.5em;
+	border-radius: 2px;
+}
+
+.card-hoverable {
+	transition: all 0.25s ease;
+}
+
+.card-1,
+.card-hoverable-1:hover {
+	transform: translateY(-1px);
+	@include paper-shadow('1');
+}
+
+.card-2,
+.card-hoverable-2:hover {
+	transform: translateY(-2px);
+	@include paper-shadow('2');
+}
+
+.card-3,
+.card-hoverable-3:hover {
+	transform: translateY(-3px);
+	@include paper-shadow('3');
+}
+
+.card-4,
+.card-hoverable-4:hover {
+	transform: translateY(-4px);
+	@include paper-shadow('4');
+}
+
+.card-5,
+.card-hoverable-5:hover {
+	transform: translateY(-5px);
+	@include paper-shadow('5');
+}
+
+.card-content {
+	padding: 1em 0.5em;
+}

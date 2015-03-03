@@ -68,11 +68,11 @@ module.exports = function(grunt) {
 
     watch: {
       css: {
-        files: ['styles/**/*.scss'],
+        files: ['src/scss/**/*.scss'],
         tasks: ['sass:dev', 'shell:jekyllBuild']
       },
       js: {
-        files: ['scripts/*.js', 'scripts/data/*.js', 'scripts/tests/*.js'],
+        files: ['src/js/**/*.js'],
         tasks: [ 'jshint', 'concat', 'uglify', 'shell:jekyllBuild']
       },
       site: {
