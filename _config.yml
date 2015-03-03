@@ -3,3 +3,4 @@ markdown: redcarpet
 pygments: true
 permalink: /news/:year/:month/:day/:title/
 excerpt_separator: <!--more-->
+exclude: [node_modules/, Gruntfile.js, package.json, README.md]
