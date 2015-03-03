@@ -95,8 +95,7 @@ var BU = {
 		},
 
 		scrollToAnchor: function(anchor) {
-			if (location.pathname.replace(/^\//,'') == anchor.pathname.replace(/^\//,'') 
-	        || location.hostname == anchor.hostname) {
+			if (location.pathname.replace(/^\//,'') === anchor.pathname.replace(/^\//,'') || location.hostname === anchor.hostname) {
 	      var target = $(anchor.hash);
 	      target = target.length ? target : $('[name=' + anchor.hash.slice(1) +']');
 	      if (target.length) {
