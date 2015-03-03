@@ -1,7 +1,7 @@
 //Add global Bird Ultimate js code here.
 var BU = {
 
-	HEADER_OFFSET: 50,
+	HEADER_OFFSET: 64,
 
 	resetContactForm: function() {
 		$("#contact-form-name").val("");
