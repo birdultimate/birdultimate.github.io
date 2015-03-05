@@ -1,10 +1,10 @@
 ---
 layout: home
-title: Bird Ultimate
+title: Minneapolis Bird Ultimate
 ---
 <a name="top"></a>
 <div id="top" class="page-banner">
-	<img src="/assets/images/banner-bvon.png"/>
+	<img src="/assets/images/banner-bvon.png" alt="Bird Ultimate home page banner - Bryan Vohnoutka"/>
 	<div class="banner-overlay">
 		<div class="container-fluid">
 			<span class="banner-top">fly.</span>
@@ -14,26 +14,28 @@ title: Bird Ultimate
 </div>
 <a name="news"></a>
 <div id="news" class="news">
-	<div class="content-container content-section">
-		<h1 class="section-title">news from the nest</h1>
-		{% for post in site.posts %}
-		  <div class="post">
-		    <h2 class="post-title">{{ post.title }}</h2>
-		    <p class="meta">Posted on {{ post.date | date_to_string }} by {{ post.author }}</p>
-		    <a href="http://www.facebook.com/sharer.php?u=http://www.birdultimate.com{{ post.url }}" target="_blank" class="post-share-button share-fb"><img src="/assets/images/social-icon-fb.png" title="Share on Facebook"/></a>
-		    <a href="http://twitter.com/share?url=http://www.birdultimate.com{{ post.url }}" target="_blank" class="post-share-button share-tw" title="Share on Twitter"><img src="/assets/images/social-icon-tw.png"/></a>
-		    <a href="https://plus.google.com/share?url=http://www.birdultimate.com{{ post.url }}" target="_blank" class="post-share-button share-gp"><img src="/assets/images/social-icon-gp.png" title="Share on Google+"/></a>
-		    <a href="http://reddit.com/submit?url=http://www.birdultimate.com{{ post.url }}&title={{ post.title }}" target="_blank" class="post-share-button share-rd"><img src="/assets/images/social-icon-rd.png" title="Post to Reddit"/></a>
-		    <a href="mailto:?Subject={{ post.title }}&Body=http://www.birdultimate.com{{ post.url }}" class="post-share-button share-em"><img src="/assets/images/social-icon-em.png" title="Email"/></a>
-		    <div class="post-excerpt">
-		    	{{ post.excerpt }}
-		    	<input class="post-read-more" type="button" value="read more"/>
-		    </div>
-		    <div class="post-content">
-		    	{{ post.content }}
-		    	<input class="post-read-less" type="button" value="read less"/>
-		    </div>
-		  </div>
+	<div class="container-fluid content-section">
+		<h1 class="section-title">news</h1>
+		{% for post in site.posts limit: 3 %}
+		  <div class="post card card-2{%if forloop.index == 1 %} feature{% endif %}">
+          <a href="{{ post.url }}">
+            {% if post.cover %}
+              <img src="{{ post.cover }}.png" class="cover"/>
+            {% else %}
+              {%if forloop.index == 1 %}
+              	<img src="http://dummyimage.com/800x300/000/fff.png" class="cover"/>
+              {% else %}
+              	<img src="http://dummyimage.com/320x240/000/fff.png" class="cover"/>
+              {% endif %}
+            {% endif %}
+          </a>
+          <div class="card-content{%if forloop.index == 1 %} card card-2{% endif %}">
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <p class="meta">By {{ post.author }} | {{ post.date | date: "%B %-d, %Y" }}</p>
+            {{ post.excerpt }}
+            <p><a href="{{ post.url }}">read more</a></p>
+          </div>
+        </div>
 		{% endfor %}
 	</div>
 </div>

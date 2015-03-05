@@ -1,0 +1,120 @@
+.post {
+  background: #FFF;
+  text-align: justify;
+  margin-bottom: 1em;
+
+  @media screen and (min-width: 62em) {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2 {
+  	margin: 0;
+    font-size: 2em;
+    line-height: 1.5em;
+    font-weight: normal;
+    text-align: left;
+
+    a {
+      color: $text-color;
+    }
+  }
+
+  p {
+    margin: 0.8em 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+
+    &.cover {
+      display: none;
+
+      @media screen and (min-width: 62em) {
+      	display: block;
+      	float: left;
+      	margin: 1em;
+    	}
+    }
+  }
+
+  pre {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 .4em;
+
+    code {
+      border: none;
+    }
+  }
+
+  ul, ol {
+    margin-left: 1.35em;
+  }
+
+  code {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 .2em;
+  }
+
+  pre.terminal {
+    border: 1px solid #000;
+    background-color: #333;
+    color: #FFF;
+
+    code {
+      background-color: #333;
+    }
+  }
+
+  .meta {
+  	margin-top: 0;
+	color: #aaa;
+	text-align: left;
+  }
+
+  .card-content {
+  	padding: 1em 2em;
+
+  	@media screen and (min-width: 62em) {
+  		padding: 1em 2em 1em 359px;
+  	}
+  }
+
+  &.feature {
+
+  	@media screen and (min-width: 62em) {
+  		padding-bottom: 1em;
+  		background: transparent;
+  	}
+
+  	img.cover {
+  		display: block;
+  		width: 100%;
+  		height: auto;
+  		float: none;
+  		margin: 0;
+  	}
+
+  	.card-content {
+
+  		padding-left: 2em;
+  		margin: 0;
+  		box-shadow: none;
+
+  		@media screen and (min-width: 62em) {
+	  		margin: -4em 2em 0;
+	  		background: #FFF;
+	  		position: relative;
+	  		box-shadow: inherit;
+	  	}
+  	}
+  }
+}
+
+.posts .btn {
+	margin: 1em 0 0 0.5em;
+}

@@ -165,85 +165,10 @@ input[type="submit"]:hover {
 /*****************************************************************************/
 
 .news {
-  background: #F7F7F7;
+  background: #E7E7E7;
 }
 
-.post {
-  background: #FFF;
-  padding: 10px;
-  margin-bottom: 10px;
-  text-align: justify;
-}
-
-.post ul {
-  list-style-position: inside;
-  margin: 1em 0;
-}
-
-.post .post-title {
-  font-size: 2em;
-  line-height: 1.2em;
-  margin-bottom: 0.125em;
-  text-align: left;
-  font-weight: normal;
-  color: #007AFF;
-}
-
-.post .meta {
-  color: #8E8E93;
-  margin: 0 0 0.25em;
-}
-
-.post .post-content,
-.post.expanded .post-excerpt {
-  display: none;
-}
-
-.post.expanded .post-content,
-.post .post-excerpt {
-  display: block;
-}
-
-.post .post-read-more,
-.post .post-read-less {
-  font-size: 0.8em;
-}
-
-@media screen and (max-width: 480px) {
-  .post .post-read-more,
-  .post .post-read-less {
-    width: 100%;
-  }
-}
-
-.post-share-button {
-  display: inline-block;
-  padding: 2px 2px;
-}
-
-.post-share-button img {
-  display: block;
-}
-
-.share-fb {
-  background: #3B5995;
-}
-
-.share-tw {
-  background: #2EA7DE;
-}
-
-.share-gp {
-  background: #E24A33;
-}
-
-.share-rd {
-  background: #000;
-}
-
-.share-em {
-  background: #C7C7CC;
-}
+@import 'partials/bird/posts';
 
 /*****************************************************************************/
 /*
