@@ -33,7 +33,7 @@ title: Minneapolis Bird Ultimate
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <p class="meta">By {{ post.author }} | {{ post.date | date: "%B %-d, %Y" }}</p>
             {{ post.excerpt }}
-            <p><a href="{{ post.url }}">read more</a></p>
+            <p><a href="{{ post.url }}" class="btn btn-primary btn-flat">read more</a></p>
           </div>
         </div>
 		{% endfor %}
