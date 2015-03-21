@@ -1,0 +1,65 @@
+---
+layout:   post
+title:    "Birdhouse Building"
+subtitle: "That’s not what I meant!: Deconstructing Sideline Discourse"
+date:     2015-03-21 15:31:12
+author:   Ryan Oto
+readtime: 10
+cover:    birdhouse
+---
+
+This will be Bird’s 4th year in existence. By the standards of mixed ultimate that many of the people on this team came from, it is a miracle that we came this far. We were built from parts of teams that intentionally rebranded each year, and now live as a team that fights for its very life each day.
+
+<!--more-->
+
+I’ve read the articles on Skyd about building a program, and there is clear merit to what is being said on that front; but for us, ultimate is about more than programming. It is more than athleticism, training, and camaraderie. Yes, that last one may seem like a bit of a surprise to my teammates, as I ironically hold the title of “team­bonding leader”. But, I stand firmly in what I say because it is this very act that makes us unique: Bird is about democracy.
+
+Ok, here is where many of you have stopped reading or decided that this has taken an esoteric direction into patriotism and the following essay includes nothing more than a monologue on how great our country is. But that is the very reason you ought to continue reading. For it is not democracy in the capacity that we view it, or more accurately, are told to understand it as citizens of a democratic country. Rather, it is the fiber of our being with which I write.
+
+<h4>A bit of context: Bird and Foucault</h4>
+
+Bird struggled over the last 3 seasons with communication. This is a value­-laden statement. Sitting in team meetings and speaking with teammates during the season and away from it I heard people consistently address the issue of communication. “I just want to be heard,” “they don’t care what I think,” “what’s the point of saying anything if they’re just going to do what they want?” This a small sampling of some of the thoughts from teammates past and present. As I revisit these moments, I can feel the frustration, anger, and sense of defeat in their voices.
+
+It speaks to a problem that belies communication and more abstract. This seems to have implications about how we perceived one another fundamentally as people. The language that was used surrounding the team, while clear to some, led to divisiveness and frustration with others. How could something as straight­forward as “time your cuts better” or “you need to not get beaten deep” or “you need to play tighter on your man” be taken as anything other than constructive commentary? For the same reason that communication is a value­-laden statement – discourse exists, as French philosopher Michel Foucault defined, in “discontinuity.”<sup>1</sup>
+
+Foucault viewed his life as a call to arms to challenge assumed institutional ideas of power and knowledge. In the end, it upset just about everyone. While his writing is specific to schools, workplaces, the government, and prisons in the book, I can’t help but see its application to Bird. We must understand the nature of discourse and its implications to better understand what effective communication is rather than simply thinking we all agree. 
+
+<h4>Discourse, Discontinuity, and Normalizing Objects</h4>
+
+> Discourses are composed of signs, but what they do is more than use these signs to designate things. It is this move that renders them irreducible to the language and to the speech. It is this ‘move’ that we must reveal and describe 
+
+Foucault’s concept of “discontinuity” will help make sense of the ‘move’ that he is concerned with in the aforementioned quote. The premise that the meanings made in language can be forgotten, changed, and altered through the course of history. In essence, meaning can exist in one moment, and cease to be in the next. However, much of the language we use in our lives can be traced throughout history quite succinctly (hence the existence of linguistics as a professional field). Foucault suggests that this is due to the relationship between power and knowledge within discourse. 
+
+This relationship between power and knowledge is best seen in Foucault’s own words. 
+
+> ...In [discourses] distribution, in what it permits and what it prevents, it follows the lines laid down by social differences, conflicts and struggles. Every [system] is a political means of maintaining or modifying the appropriateness of discourses with the knowledge and power they bring with them.
+
+The implications of this can be seen on the sideline. In this space, the politics of knowledge and power that Foucault refers to play out. We seek to instill knowledge in the people on our team with feedback, strategy sessions, and commentary on what is happening during practices and games. In every sense, it seems we are empowering our teammates with the knowledge we have. The person giving feedback takes the “empowerment” position identified above, feeling that the knowledge being transposed is worthwhile and thus, providing assumed value in their discourse. Meanwhile, the receiver of feedback becomes a dominated person; being given the knowledge that they do not have places them into a submissive position. In turn, the receiver becomes the object for the instiller of knowledge<sup>2</sup>.
+
+This process happens in the mind as opposing viewpoints are raised and defeated by the normalizing influence of sideline discourse. Who can speak with whom? What can you say and can’t you say without making someone upset? Would the captains approve of what is happening or being said? Most of these cases silence is the result or for those courageous few, their voice falls upon unwilling listeners or flatly refused the space. These are issues that arise frequently in real time, so perhaps it feels like there is little time to react and reflect.  But, the tension that one senses in silence and even this rationalization are consequences of normalizing dominance. From these actions and inactions, borne are the institutions that monopolize discourse. And from that monopolization, arises oppression that spans thought and ideation to carrying on equal conversations. Ultimately, people on the team are normalized into objects for the perpetuation of team “power­-knowledge.”
+
+Reconsider the language we use to speak with people on the sideline. While in one moment it may help them see a key fundamental problem within their play­style, it is also reinforcing an institutional notion within team sports, well beyond ultimate, that any person is an object that can be made better through the team. As a result, this establishes a covert power relationship, wherein the institution of the team dominates the person receiving commentary. It implicitly demands the object understand the normalized discourse presented by the representative of the institution. If this can’t be done, it leads to a feeling of “miscommunication” or a sense that someone might not belong. 
+
+<h4>What do we do about it?</h4>
+
+If you’ve followed so far there are likely a spectrum of possible things you are thinking...but far be it from me to rationalize your opinions on my writing. See what I did there? In my stream of consciousness writing, I realized I almost made you an object of my discourse.
+
+This is not advocating for people to contest every moment of feedback, nor to undermine leadership. However, we must recognize we are a party to unintentionally to find better means and modes of communication. Foucault challenges us to see people as subjects of their own existence, not as components of our institutions of thought. He says:
+
+> The real political task in a society such as ours is to criticize the working on institutions which appear to be both neutral and independent; violence which has always exercised itself obscurely through them will be unmasked, so that we can fight fear. 
+
+The violence refers to discourses marginalizing potential, and perhaps the term carries more meaning than you’d care for. But consider, what he claims is our goal: “to unmask” and “fight fear.” We must be cognizant of the language we use and how we define roles, categorizations, and “communicate” on a team in order to truly become democratic. With the looming presence of subtle dominance, little can truly be said of the voices at the table that are marginalized by the normalized discourse.
+
+It is clear what we should do: avoid creating objects and allow people to exist and subjects unto themselves. Ask for invitations into their existence and enjoy that shared space and moment. Appreciate that time for the generosity and trust it represents from one person to another. These are the moments that make us human and what allow us to make the shared meaning of Bird something worthwhile, regardless of perception. 
+
+Democracy is what we have chosen to define ourselves by this year. It is messy and slow, which are often the reasons teams think that they prefer authoritative leadership in ultimate. But we are people first and foremost, of a mindset that yearns for validation and recognition of our existence in a way that totalitarianism does not permit. Therefore, we need all voices and clear understanding of how we design meaning and develop common meaning must be thought of intentionally. Without direction for ourselves, democracy will serve no one and alienate us all because that is the nature of language and we must seek to make it work for us. 
+
+That’s why I love this team can’t wait for this season to start.
+
+<hr>
+<div class="footnotes">
+  <p>
+  	<sup>1</sup> If you want to know more about this, take some time and read Michel Foucault’s <em>Discipline and Punish</em>. Honestly, if you spark note this or look it up on Wikipedia you are doing yourself a tremendous disservice. It’s like saying you went to Yosemite National Park because you Google image searched the thing. Foucault is crazy smart, and that is understating it. In undergrad attempting to read this was the least enjoyable experience I had. Each line he crafts reminds me of trying to catch fireflies at night. Once in a while you see the light, and then suddenly, it was gone forever. It is a commitment to toil in frustration with the hope that it might make an ounce of sense. Today, after taking a solid 5 year hiatus from his ideas, I feel like I’m in a moment that I have one of his fireflies in my hand. I’m anxious to get down my thoughts because I don’t know when it will escape my grasp, but the beauty of this work speaks to the very core of who I am.<p>
+	<p>
+		<sup>2</sup> This reminds me of Paulo Freie’s seminal work <em>Pedagogy of the Oppressed</em>. Well worth a read for anyone who wants to think about teaching.</p>
+</div>

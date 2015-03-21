@@ -1,9 +1,8 @@
 ---
-layout: home
+layout: default
 title: Minneapolis Bird Ultimate
 ---
-<a name="top"></a>
-<div id="top" class="page-banner">
+<div class="page-banner">
 	<img src="/assets/images/banner-bvon.png" alt="Bird Ultimate home page banner - Bryan Vohnoutka"/>
 	<div class="banner-overlay">
 		<div class="container-fluid">
@@ -12,17 +11,20 @@ title: Minneapolis Bird Ultimate
 		</div>
 	</div>
 </div>
-<a name="news"></a>
-<div id="news" class="news">
+<div class="news">
 	<div class="container-fluid content-section">
 		<h1 class="section-title">news</h1>
 		{% for post in site.posts limit: 3 %}
 		  <div class="post card card-2{%if forloop.index == 1 %} feature{% endif %}">
           <a href="{{ post.url }}">
             {% if post.cover %}
-              <img src="{{ post.cover }}.png" class="cover"/>
+            	{% if forloop.index == 1 %}
+              	<img src="/assets/images/{{ post.cover }}_cover.png" class="cover"/>
+              {% else %}
+              	<img src="/assets/images/{{ post.cover }}_cover_sm.png" class="cover"/>
+              {% endif %}
             {% else %}
-              {%if forloop.index == 1 %}
+              {% if forloop.index == 1 %}
               	<img src="http://dummyimage.com/800x300/000/fff.png" class="cover"/>
               {% else %}
               	<img src="http://dummyimage.com/320x240/000/fff.png" class="cover"/>
@@ -30,8 +32,13 @@ title: Minneapolis Bird Ultimate
             {% endif %}
           </a>
           <div class="card-content{%if forloop.index == 1 %} card card-2{% endif %}">
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p class="meta">By {{ post.author }} | {{ post.date | date: "%B %-d, %Y" }}</p>
+            <a class="title" href="{{ post.url }}">
+            	<h2>{{ post.title }}</h2>
+            	{% if post.subtitle %}
+            		<h3>{{ post.subtitle }}</h3>
+            	{% endif %}
+            </a>
+            <p class="meta">By {{ post.author }} | {{ post.date | date: "%B %-d, %Y" }} {% if post.readtime %} | <i class="fa fa-clock-o"></i> {{ post.readtime }} min read{% endif %}</p>
             {{ post.excerpt }}
             <p><a href="{{ post.url }}" class="btn btn-primary btn-flat">read more</a></p>
           </div>
@@ -39,27 +46,22 @@ title: Minneapolis Bird Ultimate
 		{% endfor %}
 	</div>
 </div>
-<a name="results"></a>
-<div id="results" class="results">
-	<img src="/assets/images/banner-transparent.png"/>
-	<div class="results-overlay">
-		<div class="content-container content-section">
-			<h1 class="section-title">schedule & results</h1>
-			<p>At this time we have not yet finalized our tournament schedule for the year. We will likely be attending the following events:</p>
-			<ul>
-				{% for tournament in site.data.tournaments %}
-					<li>
-						{{ tournament.name }},
-						{{ tournament.date }},
-						{{ tournament.location }}
-					</li>
-				{% endfor %}
-			</ul>
-		</div>
+<div class="results">
+	<div class="content-container content-section">
+		<h1 class="section-title">schedule & results</h1>
+		<p>At this time we have not yet finalized our tournament schedule for the year. We will likely be attending the following events:</p>
+		<ul>
+			{% for tournament in site.data.tournaments limit: 1 %}
+				<li>
+					{{ tournament.name }},
+					{{ tournament.date }},
+					{{ tournament.location }}
+				</li>
+			{% endfor %}
+		</ul>
 	</div>
 </div>
-<a name="team"></a>
-<div id="team" class="team">
+<div class="team">
 	<div class="content-container content-section clearfix">
 		<h1 class="section-title">meet the team</h1>
 		<p>Introducing your 2015 captains: Katherine Zimmermann, Jill Merkle, and Nihal Bhakta! Stay tuned for an announcement of the full roster.</p>
@@ -77,8 +79,7 @@ title: Minneapolis Bird Ultimate
 		{% endfor %}
 	</div>
 </div>
-<a name="about"></a>
-<div id="about" class="about">
+<div class="about">
 	<div class="content-container content-section">
 		<h1 class="section-title">about bird</h1>
 		<p>Bird is an ultimate frisbee club from Minneapolis, Minnesota. Bird competes in the Select Flight of the USA Ultimate Mixed Club Series.</p>
@@ -87,8 +88,7 @@ title: Minneapolis Bird Ultimate
 		<img src="/assets/images/team-2013.png"/>
 	</div>
 </div>
-<a name="contact"></a>
-<div id="contact" class="contact">
+<div class="contact">
 	<div class="content-container content-section last">
 		<h1 class="section-title">contact us</h1>
 		<div id="contact-form">

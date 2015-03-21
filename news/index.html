@@ -1,0 +1,40 @@
+---
+layout: default
+title: News | Minneapolis Bird Ultimate
+---
+
+<div class="news">
+	<div class="container-fluid content-section last">
+		<h1 class="section-title">news</h1>
+		{% for post in site.posts %}
+		  <div class="post card card-2{%if forloop.index == 1 %} feature{% endif %}">
+          <a href="{{ post.url }}">
+            {% if post.cover %}
+            	{% if forloop.index == 1 %}
+              	<img src="/assets/images/{{ post.cover }}_cover.png" class="cover"/>
+              {% else %}
+              	<img src="/assets/images/{{ post.cover }}_cover_sm.png" class="cover"/>
+              {% endif %}
+            {% else %}
+              {% if forloop.index == 1 %}
+              	<img src="http://dummyimage.com/800x300/000/fff.png" class="cover"/>
+              {% else %}
+              	<img src="http://dummyimage.com/320x240/000/fff.png" class="cover"/>
+              {% endif %}
+            {% endif %}
+          </a>
+          <div class="card-content{%if forloop.index == 1 %} card card-2{% endif %}">
+            <a class="title" href="{{ post.url }}">
+            	<h2>{{ post.title }}</h2>
+            	{% if post.subtitle %}
+            		<h3>{{ post.subtitle }}</h3>
+            	{% endif %}
+            </a>
+            <p class="meta">By {{ post.author }} | {{ post.date | date: "%B %-d, %Y" }} {% if post.readtime %} | <i class="fa fa-clock-o"></i> {{ post.readtime }} min read{% endif %}</p>
+            {{ post.excerpt }}
+            <p><a href="{{ post.url }}" class="btn btn-primary btn-flat">read more</a></p>
+          </div>
+        </div>
+		{% endfor %}
+	</div>
+</div>

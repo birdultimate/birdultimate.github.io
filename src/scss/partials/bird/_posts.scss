@@ -9,16 +9,21 @@
     margin-right: auto;
   }
 
+  a.title {
+    color: $text-color;
+  }
+
   h2 {
   	margin: 0;
     font-size: 2em;
     line-height: 1.5em;
     font-weight: normal;
     text-align: left;
+  }
 
-    a {
-      color: $text-color;
-    }
+  h3 {
+    @extend h2;
+    font-size: 1.5em;
   }
 
   p {
