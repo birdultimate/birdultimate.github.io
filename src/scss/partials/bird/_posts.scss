@@ -49,6 +49,15 @@
     }
   }
 
+  blockquote p {
+    margin: 0;
+    font-style: italic;
+  }
+
+  .footnotes {
+    font-size: 0.75em;
+  }
+
   pre {
     border: 1px solid #ddd;
     background-color: #eef;
@@ -124,6 +133,14 @@
   }
 }
 
-.posts .btn {
-	margin: 1em 0 0 0.5em;
+.news .all-container {
+
+  margin-top: 2em;
+  margin-left: 0.5em;
+
+  @media screen and (min-width: 62em) {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

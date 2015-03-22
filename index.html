@@ -44,6 +44,11 @@ title: Minneapolis Bird Ultimate
           </div>
         </div>
 		{% endfor %}
+		{% if site.posts.size > 3 %}
+			<div class="all-container">
+				<a href="/news" class="btn btn-primary btn-raised btn-lg">view all</a>
+			</div>
+		{% endif %}
 	</div>
 </div>
 <div class="results">
