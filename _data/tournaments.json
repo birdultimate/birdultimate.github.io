@@ -1,0 +1,67 @@
+{
+  recent: {
+    name: "USAU North Central Regionals",
+    date: "September 20-21, 2014",
+    location: "Milwaukee, WI",
+    games: [
+      {
+        opp: {
+          name: "The Chad Larsen Experience",
+          logo: "clx"
+        },
+        us: 13,
+        them: 14
+      },
+      {
+        opp: {
+          name: "No Touching",
+          logo: "classic"
+        },
+        us: 15,
+        them: 12
+      },
+      {
+        opp: {
+          name: "PanIC",
+          logo: "select"
+        },
+        us: 14,
+        them: 10
+      },
+      {
+        opp: {
+          name: "Des Moines Metro",
+          logo: "metro"
+        },
+        us: 15,
+        them: 13
+      },
+      {
+        opp: {
+          name: "Boomtown Pandas",
+          logo: "boomtown"
+        },
+        us: 15,
+        them: 3
+      },
+      {
+        opp: {
+          name: "Thoroughbred",
+          logo: "select"
+        },
+        us: 14,
+        them: 9
+      },
+      {
+        opp: "NOISE",
+        opp: {
+          name: "NOISE",
+          logo: "noise"
+        },
+        us: 9,
+        them: 14
+      },
+    ]
+  },
+  upcoming: null
+}

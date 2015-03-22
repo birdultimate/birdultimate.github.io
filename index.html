@@ -13,7 +13,7 @@ title: Minneapolis Bird Ultimate
 </div>
 <div class="news">
 	<div class="container-fluid content-section">
-		<h1 class="section-title">news</h1>
+		<h1 class="section-title">latest news</h1>
 		{% for post in site.posts limit: 3 %}
 		  <div class="post card card-2{%if forloop.index == 1 %} feature{% endif %}">
           <a href="{{ post.url }}">
@@ -46,7 +46,7 @@ title: Minneapolis Bird Ultimate
 		{% endfor %}
 		{% if site.posts.size > 3 %}
 			<div class="all-container">
-				<a href="/news" class="btn btn-primary btn-raised btn-lg">view all</a>
+				<a href="/news" class="btn btn-primary btn-raised btn-lg">view all posts</a>
 			</div>
 		{% endif %}
 	</div>
@@ -54,34 +54,15 @@ title: Minneapolis Bird Ultimate
 <div class="results">
 	<div class="content-container content-section">
 		<h1 class="section-title">schedule & results</h1>
-		<p>At this time we have not yet finalized our tournament schedule for the year. We will likely be attending the following events:</p>
-		<ul>
-			{% for tournament in site.data.tournaments limit: 1 %}
-				<li>
-					{{ tournament.name }},
-					{{ tournament.date }},
-					{{ tournament.location }}
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
-</div>
-<div class="team">
-	<div class="content-container content-section clearfix">
-		<h1 class="section-title">meet the team</h1>
-		<p>Introducing your 2015 captains: Katherine Zimmermann, Jill Merkle, and Nihal Bhakta! Stay tuned for an announcement of the full roster.</p>
-		{% for player in site.data.players %}
-		  <div class="player-container">
-		  	<img src="{{ player.photo }}">
-		  	<div class="player-overlay">
-		  		<span class="number">{{ player.number }}</span>
-		  		<div class="name">
-		  			<p class="first">{{ player.nameFirst }}</p>
-		  			<p class="last">{{ player.nameLast }}</p>
-		  		</div>
-		  	</div>
-		  </div>
+		{% assign tournament = site.data.tournaments.recent %}
+		<h2>{{ tournament.name }}</h2>
+		<p>{{ tournament.date }} | {{ tournament.location }}</p>
+		{% for game in tournament.games %}
+			<div class="game">
+				<img src="/assets/images/team/{{ game.opp.logo }}.png"/><span>{{ game.opp.name }}</span>
+			</div>
 		{% endfor %}
+		</ul>
 	</div>
 </div>
 <div class="about">

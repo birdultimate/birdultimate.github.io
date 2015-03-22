@@ -1,0 +1,22 @@
+---
+layout: default
+title: Team | Minneapolis Bird Ultimate
+---
+<div class="team">
+	<div class="content-container content-section clearfix">
+		<h1 class="section-title">meet the team</h1>
+		<p>Introducing your 2015 captains: Katherine Zimmermann, Jill Merkle, and Nihal Bhakta! Stay tuned for an announcement of the full roster.</p>
+		{% for player in site.data.players %}
+		  <div class="player-container">
+		  	<img src="{{ player.photo }}">
+		  	<div class="player-overlay">
+		  		<span class="number">{{ player.number }}</span>
+		  		<div class="name">
+		  			<p class="first">{{ player.nameFirst }}</p>
+		  			<p class="last">{{ player.nameLast }}</p>
+		  		</div>
+		  	</div>
+		  </div>
+		{% endfor %}
+	</div>
+</div>

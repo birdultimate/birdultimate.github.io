@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    "Birdhouse Building"
+title:    "Bird House Building"
 subtitle: "That’s not what I meant!: Deconstructing Sideline Discourse"
 date:     2015-03-21 15:31:12
 author:   Ryan Oto

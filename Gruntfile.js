@@ -76,7 +76,7 @@ module.exports = function(grunt) {
         tasks: [ 'jshint', 'concat', 'uglify', 'shell:jekyllBuild']
       },
       site: {
-        files: ['**/*.html', '!_site/**/*.html', '_posts/**/*.md', '_drafts/**/*.md', '_data/**/*.yml'],
+        files: ['**/*.html', '!_site/**/*.html', '_posts/**/*.md', '_drafts/**/*.md', '_data/**/*'],
         tasks: ['shell:jekyllBuild']
       }
     }
