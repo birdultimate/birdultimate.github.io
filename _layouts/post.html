@@ -5,9 +5,9 @@ layout: default
 	<div class="container-fluid content-section last">
 		<div class="post card card-2 feature">
       {% if page.cover %}
-      	<img src="/assets/images/{{ page.cover }}_cover.png" class="cover"/>
+      	<img src="/assets/images/cover/{{ page.cover }}.png" class="cover"/>
       {% else %}
-        <img src="http://dummyimage.com/800x300/000/fff.png" class="cover"/>
+        <img src="/assets/images/cover/default.png" class="cover"/>
       {% endif %}
       <div class="card-content card card-2">
         <h2>{{ page.title }}</h2>
