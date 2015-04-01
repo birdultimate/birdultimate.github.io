@@ -1,0 +1,43 @@
+.results {
+
+	h2 {
+		margin: 0;
+	  font-size: 1.75em;
+	  line-height: 1.5em;
+	  font-weight: normal;
+	  text-align: left;
+	}
+
+	.meta {
+		margin-top: 0;
+  	color: #aaa;
+  	text-align: left;
+	}
+}
+
+.tournament {
+	margin: 16px 0 32px;
+}
+
+.game {
+	padding: 5px 0;
+	border-top: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+	margin-top: -1px;
+
+	.opponent {
+		white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+	}
+
+	img {
+		margin-right: 8px;
+		height: 48px;
+    width: 48px;
+	}
+
+	p {
+		margin: 12px 0;
+	}
+}

@@ -1,13 +1,14 @@
 ---
 layout: default
 title: News | Minneapolis Bird Ultimate
+footerClass: light-gray
 ---
 
 <div class="news">
-	<div class="container-fluid content-section last">
-		<h1 class="section-title">news</h1>
+	<div class="container-fluid content-container content-section last">
+		<h1 class="section-title">News</h1>
 		{% for post in site.posts %}
-		  <div class="post card card-2{%if forloop.index == 1 %} feature{% endif %}">
+		  <div class="post card card-2 clearfix{%if forloop.index == 1 %} feature{% endif %}">
           <a href="{{ post.url }}">
             {% if post.cover %}
             	{% if forloop.index == 1 %}

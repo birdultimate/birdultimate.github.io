@@ -1,4 +1,207 @@
 {
+  seasons: {
+    "2014": {
+      year: "2014",
+      tournaments: [
+        {
+          name: "USAU North Central Regionals",
+          date: "September 20-21, 2014",
+          location: "Milwaukee, WI",
+          games: [
+            {
+              opp: {
+                name: "The Chad Larsen Experience",
+                logo: "clx"
+              },
+              us: 13,
+              them: 14
+            },
+            {
+              opp: {
+                name: "No Touching",
+                logo: "classic"
+              },
+              us: 15,
+              them: 12
+            },
+            {
+              opp: {
+                name: "PanIC",
+                logo: "classic"
+              },
+              us: 14,
+              them: 10
+            },
+            {
+              opp: {
+                name: "Des Moines Metro",
+                logo: "metro"
+              },
+              us: 15,
+              them: 13
+            },
+            {
+              opp: {
+                name: "Boomtown Pandas",
+                logo: "boomtown"
+              },
+              us: 15,
+              them: 3
+            },
+            {
+              opp: {
+                name: "Thoroughbred",
+                logo: "thoroughbred"
+              },
+              us: 14,
+              them: 9
+            },
+            {
+              opp: {
+                name: "NOISE",
+                logo: "noise"
+              },
+              us: 9,
+              them: 14
+            }
+          ]
+        },
+        {
+          name: "USAU Northwest Plains Sectionals",
+          date: "September 6-7, 2014",
+          location: "Wisconsin Dells, WI",
+          games: [
+            {
+              opp: {
+                name: "Light Touching",
+                logo: "classic"
+              },
+              us: 17,
+              them: 4
+            },
+            {
+              opp: {
+                name: "Boomtown Pandas",
+                logo: "boomtown"
+              },
+              us: 17,
+              them: 5
+            },
+            {
+              opp: {
+                name: "No Touching",
+                logo: "classic"
+              },
+              us: 16,
+              them: 15
+            },
+            {
+              opp: {
+                name: "NOISE",
+                logo: "noise"
+              },
+              us: 11,
+              them: 14
+            }
+          ]
+        },
+        {
+          name: "Chicago Heavyweights",
+          date: "August 23-24, 2014",
+          location: "Rockford, IL",
+          games: [
+            {
+              opp: {
+                name: "Interrobang!",
+                logo: "interrobang"
+              },
+              us: 11,
+              them: 13
+            },
+            {
+              opp: {
+                name: "Santa Maria",
+                logo: "santa"
+              },
+              us: 10,
+              them: 12
+            },
+            {
+              opp: {
+                name: "Mad Udderburn",
+                logo: "udderburn"
+              },
+              us: 13,
+              them: 3
+            },
+            {
+              opp: {
+                name: "NOISE",
+                logo: "noise"
+              },
+              us: 9,
+              them: 7
+            }
+          ]
+        },
+        {
+          name: "Colorado Cup",
+          date: "August 2-3, 2014",
+          location: "Aurora, CO",
+          games: [
+            {
+              opp: {
+                name: "Mischief",
+                logo: "mischief"
+              },
+              us: 11,
+              them: 13
+            },
+            {
+              opp: {
+                name: "Lions",
+                logo: "lions"
+              },
+              us: 11,
+              them: 12
+            },
+            {
+              opp: {
+                name: "Cosa Nostra",
+                logo: "cosanostra"
+              },
+              us: 10,
+              them: 13
+            },
+            {
+              opp: {
+                name: "Pleasuretown",
+                logo: "pleasuretown"
+              },
+              us: 13,
+              them: 9
+            },
+            {
+              opp: {
+                name: "RUA",
+                logo: "select"
+              },
+              us: 13,
+              them: 10
+            },
+            {
+              opp: {
+                name: "American Barbecue",
+                logo: "abbq"
+              },
+              us: 11,
+              them: 7
+            }
+          ]
+        }
+      ]
+    }
+  },
   recent: {
     name: "USAU North Central Regionals",
     date: "September 20-21, 2014",
@@ -23,7 +226,7 @@
       {
         opp: {
           name: "PanIC",
-          logo: "select"
+          logo: "classic"
         },
         us: 14,
         them: 10
@@ -47,13 +250,12 @@
       {
         opp: {
           name: "Thoroughbred",
-          logo: "select"
+          logo: "thoroughbred"
         },
         us: 14,
         them: 9
       },
       {
-        opp: "NOISE",
         opp: {
           name: "NOISE",
           logo: "noise"
