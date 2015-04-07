@@ -89,6 +89,14 @@
             },
             {
               opp: {
+                name: "Mojo Jojo",
+                logo: "classic"
+              },
+              us: 15,
+              them: 1
+            },
+            {
+              opp: {
                 name: "No Touching",
                 logo: "classic"
               },
@@ -145,7 +153,7 @@
           ]
         },
         {
-          name: "Colorado Cup",
+          name: "TCT Elite-Select Challege",
           date: "August 2-3, 2014",
           location: "Aurora, CO",
           games: [
