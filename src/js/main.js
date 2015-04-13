@@ -33,6 +33,12 @@
 
 			resizeAbout: function() {
 				BU.setAboutHeight();
+			},
+
+			seasonChange: function(event) {
+				var season = $(event.currentTarget).val();
+				$(".season").hide();
+				$("#season-"+season).show();
 			}
 		},
 
@@ -41,6 +47,12 @@
 			if ($(".about").length) {
 				$(window).on("resize", function(event) {
 					BU.Events.resizeAbout();
+				});
+			}
+
+			if ($(".season-select").length) {
+				$(document).on("change", ".season-select", function(event) {
+					BU.Events.seasonChange(event);
 				});
 			}
 		},
