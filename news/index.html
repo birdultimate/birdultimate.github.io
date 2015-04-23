@@ -33,7 +33,9 @@ footerClass: light-gray
             </a>
             <p class="meta">By {{ post.author }} | {{ post.date | date: "%B %-d, %Y" }} {% if post.readtime %} | <i class="fa fa-clock-o"></i> {{ post.readtime }} min read{% endif %}</p>
             {{ post.excerpt }}
-            <p><a href="{{ post.url }}" class="btn btn-primary btn-flat">read more</a></p>
+            {% if post.hideMore != "true" %}
+              <p><a href="{{ post.url }}" class="btn btn-primary btn-flat">read more</a></p>
+            {% endif %}
           </div>
         </div>
 		{% endfor %}
