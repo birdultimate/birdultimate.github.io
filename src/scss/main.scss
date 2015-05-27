@@ -112,6 +112,22 @@ em {
   }
 }
 
+.sponsor-logos {
+  text-align: center;
+  background: #616161;
+  padding-bottom: 82px;
+
+  a {
+    display: inline-block;
+  }
+
+  img {
+    height: 100px;
+    width: auto;
+    margin: 10px 20px;
+  }
+}
+
 .footer {
   position: relative;
   width:100%;
@@ -128,12 +144,12 @@ em {
   &.light-gray {
     background: #E7E7E7;
   }
-}
 
-.footer p {
-  text-align: center;
-  margin: 0;
-  padding-top: 10px;
+  p {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+  }
 }
 
 /*****************************************************************************/
