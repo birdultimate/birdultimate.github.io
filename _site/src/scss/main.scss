@@ -186,6 +186,10 @@ em {
 /*
 /*****************************************************************************/
 
+.team {
+  padding-bottom: 50px;
+}
+
 .player-container {
   position: relative;
   background: #F7F7F7;
@@ -225,10 +229,13 @@ em {
   background: rgba(0, 122, 255, 0.6);
   color: #FFF;
   overflow: hidden;
+  opacity: 0.2;
+  transition: 0.2s all ease;
 }
 
 .player-container:hover .player-overlay {
-  display: block;
+  opacity: 1;
+  cursor: pointer;
 }
 
 .player-overlay .number {
@@ -262,6 +269,15 @@ em {
 
 .player-overlay .name p.last {
   font-weight: bold;
+}
+
+.modal-backdrop.in {
+  opacity: 0.8;
+}
+
+.player-modal .modal-content {
+  background: #000;
+  color: #FFF;
 }
 
 /*****************************************************************************/

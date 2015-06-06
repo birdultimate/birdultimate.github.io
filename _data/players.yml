@@ -1,14 +1,269 @@
+- number: 0
+  nameFirst: Pat
+  nameLast: Keys
+  photo: /assets/images/headshot_default.png
+  position: Handler
+  age: 22
+  exp: 2
+  hometown: "Minneapolis, MN"
+  college: "Saint John&#39;s University"
+
+- number: 1
+  nameFirst: Ty
+  nameLast: Thorsen
+  photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 28
+  exp: 7
+  hometown: "Moorhead, MN"
+  college: "Carleton College"
+
+- number: 3
+  nameFirst: Bryan
+  nameLast: Vohnoutka
+  photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 25
+  exp: 7
+  hometown: "Eden Prarie, MN"
+  college: "Concordia College"
+
+- number: 8
+  nameFirst: Clay
+  nameLast: Thomas
+  photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 27
+  exp: 6
+  hometown: "Rogers, MN"
+  college: "Augsburg College"
+
+- number: 10
+  nameFirst: Beret
+  nameLast: Amundson
+  photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 22
+  exp: 1
+  hometown: "Somewhere, MN"
+  college: "Saint Olaf College"
+
+- number: 11
+  nameFirst: Emma
+  nameLast: Peaslee
+  photo: /assets/images/headshot_default.png
+  position: Handler
+  age: 23
+  exp: 7
+  hometown: "Minnetonka, MN"
+  college: "Kenyon College"
+
+- number: 12
+  nameFirst: Michael
+  nameLast: Ruble
+  photo: /assets/images/headshot_default.png
+  position: Handler
+  age: 23
+  exp: 3
+  hometown: "Golden Valley, MN"
+  college: "Saint John&#39;s University"
+
+- number: 13
+  nameFirst: Emily
+  nameLast: Fujii
+  photo: /assets/images/headshot_default.png
+  position: Handler
+  age: 22
+  exp: 1
+  hometown: "Somewhere, IA"
+  college: "University of Iowa"
+
 - number: 14
   nameFirst: Katherine
   nameLast: Zimmermann
   photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 27
+  exp: 5
+  hometown: "Racine, WI"
+  college: "Saint Olaf College"
+
+- number: 15
+  nameFirst: Gordy
+  nameLast: Stecklein
+  photo: /assets/images/headshot_default.png
+  position: Handler
+  age: 99
+  exp: 7
+  hometown: "Somwhere"
+  college: "Some School"
+
+- number: 16
+  nameFirst: Becca
+  nameLast: Morales
+  photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Somwhere"
+  college: "Some School"
+
+- number: 17
+  nameFirst: Ryan
+  nameLast: Oto
+  photo: /assets/images/headshot_default.png
+  position: Handler
+  age: 27
+  exp: 8
+  hometown: "Northfield, MN"
+  college: "Carleton College"
+
+- number: 18
+  nameFirst: Katie
+  nameLast: Claiborne
+  photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 24
+  exp: 3
+  hometown: "Louisville, KY"
+  college: "Carleton College"
+
+- number: 19
+  nameFirst: Grace
+  nameLast: Whiteford
+  photo: /assets/images/headshot_default.png
+  position: Handler
+  age: 23
+  exp: 4
+  hometown: "Somewhere"
+  college: "Some College"
 
 - number: 20
   nameFirst: Jill
   nameLast: Merkle
   photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Minneapolis, MN"
+  college: "Carleton College"
+
+- number: 21
+  nameFirst: Pat
+  nameLast: Kunkel
+  photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 23
+  exp: 2
+  hometown: "Minneapolis, MN"
+  college: "Saint John&#39;s University"
+
+- number: 23
+  nameFirst: Emily
+  nameLast: Peterson
+  photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 23
+  exp: 2
+  hometown: "Hopkins, MN"
+  college: "University of Wisconsin - La Crosse"
+
+- number: 24
+  nameFirst: Andrew
+  nameLast: Kelley
+  photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 26
+  exp: 8
+  hometown: "Hopkins, MN"
+  college: "Saint Olaf College"
+
+- number: 25
+  nameFirst: Jenny
+  nameLast: Graham
+  photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 23
+  exp: 1
+  hometown: "Somewhere, IA"
+  college: "University of Iowa"
+
+- number: 28
+  nameFirst: Joe
+  nameLast: Nelson
+  photo: /assets/images/headshot_default.png
+  position: Handler
+  age: 22
+  exp: 2
+  hometown: "Somewhere, MN"
+  college: "University of Minnesota"
+
+- number: 30
+  nameFirst: Tom
+  nameLast: Grund
+  photo: /assets/images/headshot_default.png
+  position: Handler
+  age: 30
+  exp: 7
+  hometown: "Somwhere"
+  college: "Some School"
 
 - number: 33
   nameFirst: Nihal
   nameLast: Bhakta
   photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 23
+  exp: 5
+  hometown: "Minneapolis, MN"
+  college: "Saint John&#39;s University"
+
+- number: 34
+  nameFirst: Steve
+  nameLast: Alexander
+  photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 26
+  exp: 1
+  hometown: "Somwhere"
+  college: "Saint Olaf College"
+
+- number: 47
+  nameFirst: Dave
+  nameLast: Stemper
+  photo: /assets/images/headshot_default.png
+  position: Handler
+  age: 23
+  exp: 1
+  hometown: "Minneapolis, MN"
+  college: "Saint John&#39;s University"
+
+- number: 93
+  nameFirst: Justin
+  nameLast: Hill
+  photo: /assets/images/headshot_default.png
+  position: Handler
+  age: 22
+  exp: 2
+  hometown: "Somewhere, MN"
+  college: "University of Minnesota"
+
+- number: 96
+  nameFirst: Brian
+  nameLast: Edgerton
+  photo: /assets/images/headshot_default.png
+  position: Handler
+  age: 32
+  exp: 9
+  hometown: "Atlanta, GA"
+  college: "Georgia Institute of Technology"
+
+- number: 97
+  nameFirst: Andrea
+  nameLast: Uhl
+  photo: /assets/images/headshot_default.png
+  position: Handler
+  age: 26
+  exp: 4
+  hometown: "Sioux City, IA"
+  college: "University of Iowa"

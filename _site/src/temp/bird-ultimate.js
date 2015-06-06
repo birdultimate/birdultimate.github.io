@@ -35,6 +35,21 @@
 				BU.setAboutHeight();
 			},
 
+			playerClick: function(event) {
+				console.log($(event.currentTarget).attr("data-player"));
+				var player = JSON.parse($(event.currentTarget).attr("data-player"));
+				if (player) {
+					$("#playerModal").find(".detail-number").text(player.number);
+					$("#playerModal").find(".detail-name").text(player.firstName + " " + player.lastName);
+					$("#playerModal").find(".detail-position").text(player.position);
+					$("#playerModal").find(".detail-exp").text(player.exp);
+					$("#playerModal").find(".detail-age").text(player.age);
+					$("#playerModal").find(".detail-hometown").text(player.hometown);
+					$("#playerModal").find(".detail-college").text(player.college);
+					$("#playerModal").modal('toggle');
+				}
+			},
+
 			seasonChange: function(event) {
 				var season = $(event.currentTarget).val();
 				$(".season").hide();
@@ -55,6 +70,10 @@
 					BU.Events.seasonChange(event);
 				});
 			}
+
+			//$(document).on("click", ".player-container", function(event) {
+			//	BU.Events.playerClick(event);
+			//});
 		},
 
 		init: function() {
