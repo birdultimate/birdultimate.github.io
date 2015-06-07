@@ -158,7 +158,7 @@
   hometown: "Minneapolis, MN"
   college: "Saint John&#39;s University"
 
-- number: 23
+- number: 22
   nameFirst: Emily
   nameLast: Peterson
   photo: /assets/images/headshot_default.png
@@ -167,6 +167,16 @@
   exp: 2
   hometown: "Hopkins, MN"
   college: "University of Wisconsin - La Crosse"
+
+- number: 23
+  nameFirst: Dave
+  nameLast: Stemper
+  photo: /assets/images/headshot_default.png
+  position: Handler
+  age: 23
+  exp: 1
+  hometown: "Minneapolis, MN"
+  college: "Saint John&#39;s University"
 
 - number: 24
   nameFirst: Andrew
@@ -237,16 +247,6 @@
   exp: 1
   hometown: "Edina, MN"
   college: "University of Minnesota"
-
-- number: 47
-  nameFirst: Dave
-  nameLast: Stemper
-  photo: /assets/images/headshot_default.png
-  position: Handler
-  age: 23
-  exp: 1
-  hometown: "Minneapolis, MN"
-  college: "Saint John&#39;s University"
 
 - number: 93
   nameFirst: Justin
