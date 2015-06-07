@@ -228,6 +228,16 @@
   hometown: "Somwhere"
   college: "Saint Olaf College"
 
+- number: 43
+  nameFirst: Kayla
+  nameLast: Blanek
+  photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 18
+  exp: 1
+  hometown: "Edina, MN"
+  college: "University of Minnesota"
+
 - number: 47
   nameFirst: Dave
   nameLast: Stemper
