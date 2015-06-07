@@ -28,6 +28,16 @@
   hometown: "Eden Prarie, MN"
   college: "Concordia College"
 
+- number: 7
+  nameFirst: Steve
+  nameLast: Alexander
+  photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 26
+  exp: 1
+  hometown: "Somwhere"
+  college: "Saint Olaf College"
+
 - number: 8
   nameFirst: Clay
   nameLast: Thomas
@@ -227,16 +237,6 @@
   exp: 5
   hometown: "Minneapolis, MN"
   college: "Saint John&#39;s University"
-
-- number: 34
-  nameFirst: Steve
-  nameLast: Alexander
-  photo: /assets/images/headshot_default.png
-  position: Cutter
-  age: 26
-  exp: 1
-  hometown: "Somwhere"
-  college: "Saint Olaf College"
 
 - number: 43
   nameFirst: Kayla
