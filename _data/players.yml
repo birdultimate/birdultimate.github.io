@@ -138,16 +138,6 @@
   hometown: "Louisville, KY"
   college: "Carleton College"
 
-- number: 19
-  nameFirst: Grace
-  nameLast: Whiteford
-  photo: /assets/images/headshot_default.png
-  position: Handler
-  age: 23
-  exp: 4
-  hometown: "Somewhere"
-  college: "Some College"
-
 - number: 20
   nameFirst: Jill
   nameLast: Merkle
