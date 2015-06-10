@@ -1,4 +1,4 @@
-- number: 0
+- number: "00"
   nameFirst: Pat
   nameLast: Keys
   photo: /assets/images/headshot_default.png
@@ -17,6 +17,16 @@
   exp: 7
   hometown: "Moorhead, MN"
   college: "Carleton College"
+
+- number: 2
+  nameFirst: Adam
+  nameLast: Trautman
+  photo: /assets/images/headshot_default.png
+  position: Handler
+  age: 28
+  exp: 7
+  hometown: "Somewhere, MN"
+  college: "Some College"
 
 - number: 3
   nameFirst: Bryan
@@ -237,6 +247,16 @@
   exp: 1
   hometown: "Edina, MN"
   college: "University of Minnesota"
+
+- number: 44
+  nameFirst: Ash
+  nameLast: West
+  photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 27
+  exp: 5
+  hometown: "Somewhere, MN"
+  college: "University of Somewhere"
 
 - number: 93
   nameFirst: Justin
