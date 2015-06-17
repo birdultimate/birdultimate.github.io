@@ -25,7 +25,7 @@ title: Results | Minneapolis Bird Ultimate
 											<img src="/assets/images/team/{{ game.opp.logo }}.png"/><span>{{ game.opp.name }}</span>
 										</div>
 										<div class="score col-sm-3 col-xs-4">
-											<p>{% if game.us > game.them %}W{% else %}L{% endif %}&nbsp;{{ game.us }}&nbsp;-&nbsp;{{ game.them }}</p>
+											<p>{% if game.us > game.them %}W{% endif %}{% if game.us < game.them %}L{% endif %}&nbsp;{{ game.us }}&nbsp;-&nbsp;{{ game.them }}</p>
 										</div>
 									</div>
 								</div>

@@ -7,7 +7,40 @@
           name: "Surly Invite",
           date: "June 20, 2015",
           location: "East Bethel, MN",
-          games: []
+          games: [
+            {
+              opp: {
+                name: "The Millers",
+                logo: "classic"
+              },
+              us: 0,
+              them: 0
+            },
+            {
+              opp: {
+                name: "No Touching",
+                logo: "classic"
+              },
+              us: 0,
+              them: 0
+            },
+            {
+              opp: {
+                name: "Drag'n Thrust",
+                logo: "dnt"
+              },
+              us: 0,
+              them: 0
+            },
+            {
+              opp: {
+                name: "Minnesota Star Power",
+                logo: "msp"
+              },
+              us: 0,
+              them: 0
+            }
+          ]
         },
         {
           name: "TCT U.S. Open",
@@ -833,7 +866,40 @@
       name: "Surly Invite",
       date: "June 20, 2015",
       location: "East Bethel, MN",
-      games: []
+      games: [
+        {
+          opp: {
+            name: "The Millers",
+            logo: "classic"
+          },
+          us: 0,
+          them: 0
+        },
+        {
+          opp: {
+            name: "No Touching",
+            logo: "classic"
+          },
+          us: 0,
+          them: 0
+        },
+        {
+          opp: {
+            name: "Drag'n Thrust",
+            logo: "dnt"
+          },
+          us: 0,
+          them: 0
+        },
+        {
+          opp: {
+            name: "Minnesota Star Power",
+            logo: "msp"
+          },
+          us: 0,
+          them: 0
+        }
+      ]
     },
     {
       name: "TCT U.S. Open",
