@@ -13,32 +13,32 @@
                 name: "The Millers",
                 logo: "classic"
               },
-              us: 0,
-              them: 0
+              us: 2,
+              them: 13
             },
             {
               opp: {
                 name: "No Touching",
                 logo: "classic"
               },
-              us: 0,
-              them: 0
+              us: 13,
+              them: 5
             },
             {
               opp: {
                 name: "Drag'n Thrust",
                 logo: "dnt"
               },
-              us: 0,
-              them: 0
+              us: 8,
+              them: 13
             },
             {
               opp: {
                 name: "Minnesota Star Power",
                 logo: "msp"
               },
-              us: 0,
-              them: 0
+              us: 13,
+              them: 8
             }
           ]
         },
@@ -872,32 +872,32 @@
             name: "The Millers",
             logo: "classic"
           },
-          us: 0,
-          them: 0
+          us: 2,
+          them: 13
         },
         {
           opp: {
             name: "No Touching",
             logo: "classic"
           },
-          us: 0,
-          them: 0
+          us: 13,
+          them: 5
         },
         {
           opp: {
             name: "Drag'n Thrust",
             logo: "dnt"
           },
-          us: 0,
-          them: 0
+          us: 8,
+          them: 13
         },
         {
           opp: {
             name: "Minnesota Star Power",
             logo: "msp"
           },
-          us: 0,
-          them: 0
+          us: 13,
+          them: 8
         }
       ]
     },
