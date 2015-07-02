@@ -52,16 +52,16 @@
                 name: "Wild Card",
                 logo: "wc"
               },
-              us: 0,
-              them: 0
+              us: 9,
+              them: 15
             },
             {
               opp: {
                 name: "Drag'n Thrust",
                 logo: "dnt"
               },
-              us: 0,
-              them: 0
+              us: 9,
+              them: 14
             },
             {
               opp: {
@@ -952,16 +952,16 @@
             name: "Wild Card",
             logo: "wc"
           },
-          us: 0,
-          them: 0
+          us: 9,
+          them: 15
         },
         {
           opp: {
             name: "Drag'n Thrust",
             logo: "dnt"
           },
-          us: 0,
-          them: 0
+          us: 9,
+          them: 14
         },
         {
           opp: {
