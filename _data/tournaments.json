@@ -81,7 +81,7 @@
             },
             {
               opp: {
-                name: "Elipisis",
+                name: "Elipsis",
                 logo: "elipsis"
               },
               us: 0,
@@ -981,7 +981,7 @@
         },
         {
           opp: {
-            name: "Elipisis",
+            name: "Elipsis",
             logo: "elipsis"
           },
           us: 0,
