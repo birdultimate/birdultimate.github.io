@@ -46,7 +46,48 @@
           name: "TCT U.S. Open",
           date: "July 2-5, 2015",
           location: "West Chester, OH",
-          games: []
+          games: [
+            {
+              opp: {
+                name: "Wild Card",
+                logo: "wc"
+              },
+              us: 0,
+              them: 0
+            },
+            {
+              opp: {
+                name: "Drag'n Thrust",
+                logo: "dnt"
+              },
+              us: 0,
+              them: 0
+            },
+            {
+              opp: {
+                name: "American Barbecue",
+                logo: "abbq"
+              },
+              us: 0,
+              them: 0
+            },
+            {
+              opp: {
+                name: "Polar Bears",
+                logo: "pbr"
+              },
+              us: 0,
+              them: 0
+            },
+            {
+              opp: {
+                name: "Elipisis",
+                logo: "elipsis"
+              },
+              us: 0,
+              them: 0
+            }
+          ]
         },
         {
           name: "MUDI",
@@ -905,7 +946,48 @@
       name: "TCT U.S. Open",
       date: "July 2-5, 2015",
       location: "West Chester, OH",
-      games: []
+      games: [
+        {
+          opp: {
+            name: "Wild Card",
+            logo: "wc"
+          },
+          us: 0,
+          them: 0
+        },
+        {
+          opp: {
+            name: "Drag'n Thrust",
+            logo: "dnt"
+          },
+          us: 0,
+          them: 0
+        },
+        {
+          opp: {
+            name: "American Barbecue",
+            logo: "abbq"
+          },
+          us: 0,
+          them: 0
+        },
+        {
+          opp: {
+            name: "Polar Bears",
+            logo: "pbr"
+          },
+          us: 0,
+          them: 0
+        },
+        {
+          opp: {
+            name: "Elipisis",
+            logo: "elipsis"
+          },
+          us: 0,
+          them: 0
+        }
+      ]
     }
   ]
 }
