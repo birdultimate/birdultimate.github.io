@@ -68,21 +68,29 @@
                 name: "American Barbecue",
                 logo: "abbq"
               },
-              us: 0,
-              them: 0
+              us: 13,
+              them: 12
             },
             {
               opp: {
                 name: "Polar Bears",
                 logo: "pbr"
               },
-              us: 0,
-              them: 0
+              us: 7,
+              them: 15
             },
             {
               opp: {
                 name: "Elipsis",
                 logo: "elipsis"
+              },
+              us: 7,
+              them: 15
+            },
+            {
+              opp: {
+                name: "Cahoots",
+                logo: "cahoots"
               },
               us: 0,
               them: 0
@@ -968,21 +976,29 @@
             name: "American Barbecue",
             logo: "abbq"
           },
-          us: 0,
-          them: 0
+          us: 13,
+          them: 12
         },
         {
           opp: {
             name: "Polar Bears",
             logo: "pbr"
           },
-          us: 0,
-          them: 0
+          us: 7,
+          them: 15
         },
         {
           opp: {
             name: "Elipsis",
             logo: "elipsis"
+          },
+          us: 7,
+          them: 15
+        },
+        {
+          opp: {
+            name: "Cahoots",
+            logo: "cahoots"
           },
           us: 0,
           them: 0
