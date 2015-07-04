@@ -92,8 +92,8 @@
                 name: "Cahoots",
                 logo: "cahoots"
               },
-              us: 0,
-              them: 0
+              us: 12,
+              them: 11
             }
           ]
         },
@@ -1000,8 +1000,8 @@
             name: "Cahoots",
             logo: "cahoots"
           },
-          us: 0,
-          them: 0
+          us: 12,
+          them: 11
         }
       ]
     }
