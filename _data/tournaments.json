@@ -4,45 +4,6 @@
       year: "2015",
       tournaments: [
         {
-          name: "Surly Invite",
-          date: "June 20, 2015",
-          location: "East Bethel, MN",
-          games: [
-            {
-              opp: {
-                name: "The Millers",
-                logo: "classic"
-              },
-              us: 2,
-              them: 13
-            },
-            {
-              opp: {
-                name: "No Touching",
-                logo: "classic"
-              },
-              us: 13,
-              them: 5
-            },
-            {
-              opp: {
-                name: "Drag'n Thrust",
-                logo: "dnt"
-              },
-              us: 8,
-              them: 13
-            },
-            {
-              opp: {
-                name: "Minnesota Star Power",
-                logo: "msp"
-              },
-              us: 13,
-              them: 8
-            }
-          ]
-        },
-        {
           name: "TCT U.S. Open",
           date: "July 2-5, 2015",
           location: "West Chester, OH",
@@ -912,45 +873,6 @@
   ],
   current: [
     {
-      name: "Surly Invite",
-      date: "June 20, 2015",
-      location: "East Bethel, MN",
-      games: [
-        {
-          opp: {
-            name: "The Millers",
-            logo: "classic"
-          },
-          us: 2,
-          them: 13
-        },
-        {
-          opp: {
-            name: "No Touching",
-            logo: "classic"
-          },
-          us: 13,
-          them: 5
-        },
-        {
-          opp: {
-            name: "Drag'n Thrust",
-            logo: "dnt"
-          },
-          us: 8,
-          them: 13
-        },
-        {
-          opp: {
-            name: "Minnesota Star Power",
-            logo: "msp"
-          },
-          us: 13,
-          them: 8
-        }
-      ]
-    },
-    {
       name: "TCT U.S. Open",
       date: "July 2-5, 2015",
       location: "West Chester, OH",
@@ -1004,6 +926,12 @@
           them: 11
         }
       ]
+    },
+    {
+      name: "MUDI",
+      date: "July 18-19, 2015",
+      location: "Maple Plain, MN",
+      games: []
     }
   ]
 }
