@@ -41,13 +41,15 @@
   }
 
   img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 
     &.cover {
       display: none;
 
       @media screen and (min-width: 62em) {
+        width: auto;
+        max-width: 100%;
       	display: block;
       	float: left;
       	margin: 1em;
