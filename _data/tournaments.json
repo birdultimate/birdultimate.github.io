@@ -62,7 +62,56 @@
           name: "MUDI",
           date: "July 18-19, 2015",
           location: "Maple Plain, MN",
-          games: []
+          games: [
+            {
+              opp: {
+                name: "Boomtown Pandas",
+                logo: "boomtown"
+              },
+              us: 13,
+              them: 5
+            },
+            {
+              opp: {
+                name: "Coalition",
+                logo: "coalition"
+              },
+              us: 13,
+              them: 5
+            },
+            {
+              opp: {
+                name: "Millers",
+                logo: "classic"
+              },
+              us: 10,
+              them: 13
+            },
+            {
+              opp: {
+                name: "Mad Udderburn",
+                logo: "udderburn"
+              },
+              us: 13,
+              them: 5
+            },
+            {
+              opp: {
+                name: "Drag'n Thrust",
+                logo: "dnt"
+              },
+              us: 13,
+              them: 11
+            },
+            {
+              opp: {
+                name: "Millers",
+                logo: "classic"
+              },
+              us: 10,
+              them: 13
+            }
+          ]
         },
         {
           name: "TCT Pro-Elite Challenge",
@@ -873,64 +922,64 @@
   ],
   current: [
     {
-      name: "TCT U.S. Open",
-      date: "July 2-5, 2015",
-      location: "West Chester, OH",
+      name: "MUDI",
+      date: "July 18-19, 2015",
+      location: "Maple Plain, MN",
       games: [
         {
           opp: {
-            name: "Wild Card",
-            logo: "wc"
+            name: "Boomtown Pandas",
+            logo: "boomtown"
           },
-          us: 9,
-          them: 15
+          us: 13,
+          them: 5
+        },
+        {
+          opp: {
+            name: "Coalition",
+            logo: "coalition"
+          },
+          us: 13,
+          them: 5
+        },
+        {
+          opp: {
+            name: "Millers",
+            logo: "classic"
+          },
+          us: 10,
+          them: 13
+        },
+        {
+          opp: {
+            name: "Mad Udderburn",
+            logo: "udderburn"
+          },
+          us: 13,
+          them: 5
         },
         {
           opp: {
             name: "Drag'n Thrust",
             logo: "dnt"
           },
-          us: 9,
-          them: 14
-        },
-        {
-          opp: {
-            name: "American Barbecue",
-            logo: "abbq"
-          },
           us: 13,
-          them: 12
-        },
-        {
-          opp: {
-            name: "Polar Bears",
-            logo: "pbr"
-          },
-          us: 7,
-          them: 15
-        },
-        {
-          opp: {
-            name: "Elipsis",
-            logo: "elipsis"
-          },
-          us: 7,
-          them: 15
-        },
-        {
-          opp: {
-            name: "Cahoots",
-            logo: "cahoots"
-          },
-          us: 12,
           them: 11
+        },
+        {
+          opp: {
+            name: "Millers",
+            logo: "classic"
+          },
+          us: 10,
+          them: 13
         }
       ]
     },
     {
-      name: "MUDI",
-      date: "July 18-19, 2015",
-      location: "Maple Plain, MN",
+      name: "TCT Pro-Elite Challenge",
+      date: "August 1-2, 2015",
+      location: "Aurora, CO",
       games: []
     }
   ]
