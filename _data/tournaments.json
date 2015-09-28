@@ -42,7 +42,7 @@
             },
             {
               opp: {
-                name: "Elipsis",
+                name: "Ellipsis",
                 logo: "elipsis"
               },
               us: 7,
@@ -82,7 +82,7 @@
             {
               opp: {
                 name: "Millers",
-                logo: "classic"
+                logo: "millers"
               },
               us: 10,
               them: 13
@@ -106,7 +106,7 @@
             {
               opp: {
                 name: "Millers",
-                logo: "classic"
+                logo: "millers"
               },
               us: 10,
               them: 13
@@ -117,19 +117,197 @@
           name: "TCT Pro-Elite Challenge",
           date: "August 1-2, 2015",
           location: "Aurora, CO",
-          games: []
+          games: [
+            {
+              opp: {
+                name: "Mischief",
+                logo: "mischief"
+              },
+              us: 11,
+              them: 12
+            },
+            {
+              opp: {
+                name: "NOISE",
+                logo: "noise"
+              },
+              us: 12,
+              them: 10
+            },
+            {
+              opp: {
+                name: "Cahoots",
+                logo: "cahoots"
+              },
+              us: 8,
+              them: 13
+            },
+            {
+              opp: {
+                name: "BirdFruit",
+                logo: "birdfruit"
+              },
+              us: 11,
+              them: 12
+            },
+            {
+              opp: {
+                name: "Blackbird",
+                logo: "blackbird"
+              },
+              us: 8,
+              them: 13
+            },
+            {
+              opp: {
+                name: "Thoroughbred",
+                logo: "thoroughbred"
+              },
+              us: 9,
+              them: 13
+            }
+          ]
+        },
+        {
+          name: "YCC Mixed Showcase",
+          date: "August 8, 2015",
+          location: "Blaine, MN",
+          games: [
+            {
+              opp: {
+                name: "Drag'n Thrust",
+                logo: "dnt"
+              },
+              us: 9,
+              them: 15
+            }
+          ]
         },
         {
           name: "USAU Northwest Plains Sectionals",
           date: "August 29-30, 2015",
-          location: "TBD",
-          games: []
+          location: "Appleton, WI",
+          games: [
+            {
+              opp: {
+                name: "The Herd",
+                logo: "classic"
+              },
+              us: 13,
+              them: 0
+            },
+            {
+              opp: {
+                name: "Coalition",
+                logo: "coalition"
+              },
+              us: 13,
+              them: 9
+            },
+            {
+              opp: {
+                name: "Carleton Alumni Team",
+                logo: "classic"
+              },
+              us: 13,
+              them: 5
+            },
+            {
+              opp: {
+                name: "Boomtown Pandas",
+                logo: "boomtown"
+              },
+              us: 13,
+              them: 5
+            },
+            {
+              opp: {
+                name: "Minnesota Star Power",
+                logo: "msp"
+              },
+              us: 13,
+              them: 8
+            },
+            {
+              opp: {
+                name: "Millers",
+                logo: "millers"
+              },
+              us: 12,
+              them: 15
+            },
+            {
+              opp: {
+                name: "No Touching",
+                logo: "classic"
+              },
+              us: 15,
+              them: 6
+            }
+          ]
         },
         {
           name: "USAU North Central Regionals",
           date: "September 12-13, 2015",
-          location: "TBD",
-          games: []
+          location: "Appleton, WI",
+          games: [
+            {
+              opp: {
+                name: "Minnesota Star Power",
+                logo: "msp"
+              },
+              us: 14,
+              them: 10
+            },
+            {
+              opp: {
+                name: "Boomtown Pandas",
+                logo: "boomtown"
+              },
+              us: 15,
+              them: 7
+            },
+            {
+              opp: {
+                name: "Millers",
+                logo: "millers"
+              },
+              us: 13,
+              them: 14
+            },
+            {
+              opp: {
+                name: "Mad Udderburn",
+                logo: "udderburn"
+              },
+              us: 15,
+              them: 11
+            },
+            {
+              opp: {
+                name: "NOISE",
+                logo: "noise"
+              },
+              us: 9,
+              them: 15
+            },
+            {
+              opp: {
+                name: "PanIC",
+                logo: "classic"
+              },
+              us: 11,
+              them: 12
+            },
+            {
+              opp: {
+                name: "Millers",
+                logo: "millers"
+              },
+              us: 15,
+              them: 10
+            }
+          ]
         }
       ]
     },
@@ -922,10 +1100,34 @@
   ],
   current: [
     {
-      name: "MUDI",
-      date: "July 18-19, 2015",
-      location: "Maple Plain, MN",
+      name: "USAU Northwest Plains Sectionals",
+      date: "August 29-30, 2015",
+      location: "Appleton, WI",
       games: [
+        {
+          opp: {
+            name: "The Herd",
+            logo: "classic"
+          },
+          us: 13,
+          them: 0
+        },
+        {
+          opp: {
+            name: "Coalition",
+            logo: "coalition"
+          },
+          us: 13,
+          them: 9
+        },
+        {
+          opp: {
+            name: "Carleton Alumni Team",
+            logo: "classic"
+          },
+          us: 13,
+          them: 5
+        },
         {
           opp: {
             name: "Boomtown Pandas",
@@ -936,51 +1138,92 @@
         },
         {
           opp: {
-            name: "Coalition",
-            logo: "coalition"
+            name: "Minnesota Star Power",
+            logo: "msp"
           },
           us: 13,
-          them: 5
+          them: 8
         },
         {
           opp: {
             name: "Millers",
+            logo: "millers"
+          },
+          us: 12,
+          them: 15
+        },
+        {
+          opp: {
+            name: "No Touching",
             logo: "classic"
           },
-          us: 10,
-          them: 13
+          us: 15,
+          them: 6
+        }
+      ]
+    },
+    {
+      name: "USAU North Central Regionals",
+      date: "September 12-13, 2015",
+      location: "Appleton, WI",
+      games: [
+        {
+          opp: {
+            name: "Minnesota Star Power",
+            logo: "msp"
+          },
+          us: 14,
+          them: 10
+        },
+        {
+          opp: {
+            name: "Boomtown Pandas",
+            logo: "boomtown"
+          },
+          us: 15,
+          them: 7
+        },
+        {
+          opp: {
+            name: "Millers",
+            logo: "millers"
+          },
+          us: 13,
+          them: 14
         },
         {
           opp: {
             name: "Mad Udderburn",
             logo: "udderburn"
           },
-          us: 13,
-          them: 5
-        },
-        {
-          opp: {
-            name: "Drag'n Thrust",
-            logo: "dnt"
-          },
-          us: 13,
+          us: 15,
           them: 11
         },
         {
           opp: {
-            name: "Millers",
+            name: "NOISE",
+            logo: "noise"
+          },
+          us: 9,
+          them: 15
+        },
+        {
+          opp: {
+            name: "PanIC",
             logo: "classic"
           },
-          us: 10,
-          them: 13
+          us: 11,
+          them: 12
+        },
+        {
+          opp: {
+            name: "Millers",
+            logo: "millers"
+          },
+          us: 15,
+          them: 10
         }
       ]
-    },
-    {
-      name: "TCT Pro-Elite Challenge",
-      date: "August 1-2, 2015",
-      location: "Aurora, CO",
-      games: []
     }
   ]
 }
