@@ -1,0 +1,706 @@
+seasons:  
+- year: "2016"
+  tournaments:
+  - name: "MUDI"        
+    date: "July 23-24 2016"        
+    location: "Maple Plain MN"        
+    games: []
+  - name: "TCT Pro-Elite Challenge"        
+    date: "July 30-31 2016"        
+    location: "Aurora, CO"        
+    games: []
+  - name: "TCT Select Flight Invite"        
+    date: "August 13-14 2016"        
+    location: "Westfield IN"        
+    games: []
+  - name: "USAU North Central Sectionals"        
+    date: "August 27-28 2016"        
+    location: "TBD"        
+    games: []
+  - name: "USAU North Central Regionals"        
+    date: "September 9-10 2016"        
+    location: "TBD"        
+    games: []
+- year: "2015"
+  tournaments:      
+  - name: "TCT U.S. Open"        
+    date: "July 2-5 2015"
+    location: "West Chester OH"        
+    games:          
+    - opp:              
+        name: "Wild Card"              
+        logo: "wc"            
+      us: 9            
+      them: 15          
+    - opp:              
+        name: "Drag'n Thrust"              
+        logo: "dnt"            
+      us: 9            
+      them: 14          
+    - opp:              
+        name: "American Barbecue"             
+        logo: "abbq"            
+      us: 13            
+      them: 12          
+    - opp:               
+        name: "Polar Bears"              
+        logo: "pbr"            
+      us: 7            
+      them: 15          
+    - opp:               
+        name: "Ellipsis"              
+        logo: "elipsis"            
+      us: 7            
+      them: 15          
+    - opp:               
+        name: "Cahoots"              
+        logo: "cahoots"            
+      us: 12            
+      them: 11      
+  - name: "MUDI"        
+    date: "July 18-19 2015"        
+    location: "Maple Plain MN"        
+    games:           
+    - opp:               
+        name: "Boomtown Pandas"              
+        logo: "boomtown"            
+      us: 13            
+      them: 5          
+    - opp:               
+        name: "Coalition"              
+        logo: "coalition"            
+      us: 13            
+      them: 5          
+    - opp:               
+        name: "Millers"              
+        logo: "millers"            
+      us: 10            
+      them: 13         
+    - opp:               
+        name: "Mad Udderburn"              
+        logo: "udderburn"            
+      us: 13            
+      them: 5          
+    - opp:               
+        name: "Drag'n Thrust"              
+        logo: "dnt"            
+      us: 13            
+      them: 11          
+    - opp:               
+        name: "Millers"              
+        logo: "millers"            
+      us: 10           
+      them: 13      
+  - name: "TCT Pro-Elite Challenge"        
+    date: "August 1-2 2015"        
+    location: "Aurora CO"        
+    games:              
+    - opp:                 
+        name: "Mischief"                
+        logo: "mischief"                            
+      us: 11              
+      them: 12                                     
+    - opp:                 
+        name: "NOISE"                
+        logo: "noise"                            
+      us: 12              
+      them: 10                                      
+    - opp:                 
+        name: "Cahoots"                
+        logo: "cahoots"                            
+      us: 8              
+      them: 13                                      
+    - opp:                 
+        name: "BirdFruit"                
+        logo: "birdfruit"                           
+      us: 11              
+      them: 12                                      
+    - opp:                 
+        name: "Blackbird"                
+        logo: "blackbird"                            
+      us: 8              
+      them: 13                                      
+    - opp:                 
+        name: "Thoroughbred"                
+        logo: "thoroughbred"                            
+      us: 9              
+      them: 13                                                
+  - name: "YCC Mixed Showcase"          
+    date: "August 8 2015"          
+    location: "Blaine MN"          
+    games:                           
+    - opp:                 
+        name: "Drag'n Thrust"                
+        logo: "dnt"                            
+      us: 9              
+      them: 15                                                
+  - name: "USAU Northwest Plains Sectionals"          
+    date: "August 29-30 2015"          
+    location: "Appleton WI"          
+    games:                           
+    - opp:                 
+        name: "The Herd"                
+        logo: "classic"                            
+      us: 13              
+      them: 0                                      
+    - opp:                 
+        name: "Coalition"                
+        logo: "coalition"                            
+      us: 13              
+      them: 9                                      
+    - opp:                 
+        name: "Carleton Alumni Team"                
+        logo: "classic"                            
+      us: 13              
+      them: 5                                      
+    - opp:                 
+        name: "Boomtown Pandas"                
+        logo: "boomtown"                            
+      us: 13              
+      them: 5                                      
+    - opp:                 
+        name: "Minnesota Star Power"                
+        logo: "msp"                            
+      us: 13              
+      them: 8                                      
+    - opp:                 
+        name: "Millers"                
+        logo: "millers"                            
+      us: 12             
+      them: 15                                      
+    - opp:                 
+        name: "No Touching"                
+        logo: "classic"                            
+      us: 15              
+      them: 6                                                
+  - name: "USAU North Central Regionals"          
+    date: "September 12-13 2015"          
+    location: "Appleton WI"          
+    games:                          
+    - opp:                 
+        name: "Minnesota Star Power"                
+        logo: "msp"                            
+      us: 14              
+      them: 10                                      
+    - opp:                 
+        name: "Boomtown Pandas"                
+        logo: "boomtown"                           
+      us: 15              
+      them: 7                                      
+    - opp:                 
+        name: "Millers"                
+        logo: "millers"                            
+      us: 13              
+      them: 14                                      
+    - opp:                 
+        name: "Mad Udderburn"                
+        logo: "udderburn"                            
+      us: 15              
+      them: 11                                      
+    - opp:                 
+        name: "NOISE"                
+        logo: "noise"                            
+      us: 9              
+      them: 15                                      
+    - opp:                 
+        name: "PanIC"                
+        logo: "classic"                            
+      us: 11              
+      them: 12                                      
+    - opp:                 
+        name: "Millers"                
+        logo: "millers"                            
+      us: 15              
+      them: 10                                               
+- year: "2014"      
+  tournaments:                   
+  - name: "TCT Elite-Select Challege"          
+    date: "August 2-3 2014"          
+    location: "Aurora CO"          
+    games:                           
+    - opp:                 
+        name: "Mischief"                
+        logo: "mischief"                            
+      us: 11              
+      them: 13                                      
+    - opp:                 
+        name: "Lions"                
+        logo: "lions"                            
+      us: 11              
+      them: 12                                      
+    - opp:                 
+        name: "Cosa Nostra"                
+        logo: "cosanostra"                            
+      us: 10              
+      them: 13                                      
+    - opp:                 
+        name: "Pleasuretown"                
+        logo: "pleasuretown"                            
+      us: 13              
+      them: 9                                     
+    - opp:                 
+        name: "RUA"                
+        logo: "select"                            
+      us: 13              
+      them: 10                                      
+    - opp:                 
+        name: "American Barbecue"                
+        logo: "abbq"                            
+      us: 11              
+      them: 7                                                
+  - name: "Chicago Heavyweights"          
+    date: "August 23-24 2014"          
+    location: "Rockford IL"          
+    games:                           
+    - opp:                 
+        name: "Interrobang!"                
+        logo: "interrobang"                            
+      us: 11              
+      them: 13                                      
+    - opp:                 
+        name: "Santa Maria"                
+        logo: "santa"                            
+      us: 10              
+      them: 12                                      
+    - opp:                 
+        name: "Mad Udderburn"                
+        logo: "udderburn"                            
+      us: 13              
+      them: 3                                      
+    - opp:                 
+        name: "NOISE"                
+        logo: "noise"                            
+      us: 9              
+      them: 7                                                
+  - name: "USAU Northwest Plains Sectionals"          
+    date: "September 6-7 2014"          
+    location: "Wisconsin Dells WI"          
+    games:                           
+    - opp:                 
+        name: "Light Touching"                
+        logo: "classic"                            
+      us: 17              
+      them: 4                                      
+    - opp:                 
+        name: "Boomtown Pandas"                
+        logo: "boomtown"                            
+      us: 17              
+      them: 5                                      
+    - opp:                
+        name: "Mojo Jojo"                
+        logo: "classic"                            
+      us: 15              
+      them: 1                                      
+    - opp:                 
+        name: "No Touching"                
+        logo: "classic"                            
+      us: 16              
+      them: 15                                      
+    - opp:                 
+        name: "NOISE"                
+        logo: "noise"                            
+      us: 11              
+      them: 14                                                
+  - name: "USAU North Central Regionals"         
+    date: "September 20-21 2014"          
+    location: "Milwaukee WI"          
+    games:                           
+    - opp:                 
+        name: "The Chad Larsen Experience"                
+        logo: "clx"                            
+      us: 13              
+      them: 14                                      
+    - opp:                 
+        name: "No Touching"                
+        logo: "classic"                            
+      us: 15              
+      them: 12                                      
+    - opp:                 
+        name: "PanIC"               
+        logo: "classic"                            
+      us: 14              
+      them: 10                                      
+    - opp:                 
+        name: "Des Moines Metro"                
+        logo: "metro"                            
+      us: 15              
+      them: 13                                      
+    - opp:                 
+        name: "Boomtown Pandas"                
+        logo: "boomtown"                            
+      us: 15              
+      them: 3                                      
+    - opp:                 
+        name: "Thoroughbred"                
+        logo: "thoroughbred"                            
+      us: 14              
+      them: 9                                      
+    - opp:                 
+        name: "NOISE"                
+        logo: "noise"                            
+      us: 9              
+      them: 14                                                  
+- year: "2013"      
+  tournaments:                  
+  - name: "Chesapeake Open"         
+    date: "August 3-4 2013"          
+    location: "Poolesville MD"          
+    games:                           
+    - opp:                 
+        name: "8 Bit Heroes"                
+        logo: "8bit"                            
+      us: 15              
+      them: 5                                      
+    - opp:                 
+        name: "BANG"                
+        logo: "classic"                            
+      us: 15              
+      them: 7                                      
+    - opp:                 
+        name: "Santa Maria"                
+        logo: "santa"                           
+      us: 13              
+      them: 14                                      
+    - opp:                 
+        name: "RedLine"                
+        logo: "redline"                            
+      us: 15              
+      them: 4                                      
+    - opp:                 
+        name: "The Muff 'n Men"                
+        logo: "muffn"                            
+      us: 11              
+      them: 15                                      
+    - opp:                 
+        name: "Los Penguinos"                
+        logo: "penguinos"                            
+      us: 11              
+      them: 13                                                
+  - name: "Cooler Classic"          
+    date: "August 17-18 2013"          
+    location: "North Lake WI"          
+    games:                           
+    - opp:                 
+        name: "Prion"                
+        logo: "prion"                            
+      us: 13              
+      them: 5                                      
+    - opp:                 
+        name: "Mad Udderburn"                
+        logo: "udderburn"                           
+      us: 13              
+      them: 12                                      
+    - opp:                 
+        name: "PanIC"                
+        logo: "select"                            
+      us: 10              
+      them: 6                                      
+    - opp:                 
+        name: "Interrobang"                
+        logo: "interrobang"                            
+      us: 11              
+      them: 9                                      
+    - opp:                
+        name: "No Touching"                
+        logo: "classic"                            
+      us: 15              
+      them: 11                                      
+    - opp:                 
+        name: "Minnesota Star Power"                
+        logo: "msp"                            
+      us: 13              
+      them: 11                                      
+    - opp:                 
+        name: "Interrobang"                
+        logo: "interrobang"                            
+      us: 11              
+      them: 14                                                
+  - name: "Chicago Heavyweights"         
+    date: "August 24-25 2013"          
+    location: "Rockford IL"          
+    games:                           
+    - opp:                 
+        name: "Steamboat"                
+        logo: "steamboat"                            
+      us: 7              
+      them: 12                                      
+    - opp:                 
+        name: "Gambit"                
+        logo: "gambit"                            
+      us: 8              
+      them: 11                                      
+    - opp:                 
+        name: "Underhaul"                
+        logo: "underhaul"                            
+      us: 13              
+      them: 4                                      
+    - opp:                 
+        name: "RUA"                
+        logo: "select"                            
+      us: 10              
+      them: 11                                      
+    - opp:                 
+        name: "Handlebar"                
+        logo: "handlebar"                            
+      us: 15             
+      them: 6                                      
+    - opp:                
+        name: "Milwaukee"                
+        logo: "classic"                            
+      us: 15              
+      them: 5                                      
+    - opp:                 
+        name: "Freeride"                
+        logo: "classic"                            
+      us: 13              
+      them: 11                                               
+  - name: "USAU Northwest Plains Sectionals"        
+    date: "September 14-15 2013"          
+    location: "Maple Plain MN"          
+    games:                           
+    - opp:                 
+        name: "Plowed"                
+        logo: "plowed"                            
+      us: 14              
+      them: 9                                      
+    - opp:                 
+        name: "Mastadon"                
+        logo: "mastadon"                            
+      us: 15              
+      them: 2                                      
+    - opp:                 
+        name: "Spirit Fowl"                
+        logo: "fowl"                            
+      us: 15              
+      them: 3                                      
+    - opp:                 
+        name: "Minnesota Star Power"                
+        logo: "msp"                            
+      us: 10              
+      them: 15                                      
+    - opp:                 
+        name: "No Touching"                
+        logo: "classic"                            
+      us: 15              
+      them: 10                                      
+    - opp:                 
+        name: "Plowed"                
+        logo: "plowed"                            
+      us: 15              
+      them: 4                                      
+    - opp:                 
+        name: "NOISE"                
+        logo: "noise"                            
+      us: 11              
+      them: 13                                                
+  - name: "USAU North Central Regionals"          
+    date: "September 21-22 2013"          
+    location: "Cedar Falls IA"          
+    games:                            
+    - opp:                 
+        name: "Drag'n Thrust"                
+        logo: "dnt"                            
+      us: 11              
+      them: 10                                      
+    - opp:                 
+        name: "Minnesota Star Power"                
+        logo: "msp"                           
+      us: 10              
+      them: 13                                      
+    - opp:                 
+        name: "Plowed"                
+        logo: "plowed"                            
+      us: 13              
+      them: 4                                     
+    - opp:                 
+        name: "Mad Udderburn"                
+        logo: "udderburn"                            
+      us: 13              
+      them: 4                                      
+    - opp:                 
+        name: "Dragon Trust"                
+        logo: "classic"                            
+      us: 13              
+      them: 6                                      
+    - opp:                 
+        name: "The Chad Larsen Experience"                
+        logo: "clx"                            
+      us: 12              
+      them: 15                                      
+    - opp:                 
+        name: "Drag'n Thrust"                
+        logo: "dnt"                            
+      us: 7              
+      them: 15                                                  
+- year: "2012"      
+  tournaments:                   
+  - name: "Cooler Classic"          
+    date: "August 18-19 2012"         
+    location: "North Lake WI"          
+    games:                           
+    - opp:                 
+        name: "Mad Udderburn"                
+        logo: "udderburn"                            
+      us: 14              
+      them: 13                                      
+    - opp:                 
+        name: "Beast Lansing"                
+        logo: "classic"                            
+      us: 13              
+      them: 3                                      
+    - opp:                 
+        name: "The Abusement Park"                
+        logo: "abusement"                            
+      us: 13              
+      them: 7                                      
+    - opp:                 
+        name: "Love Tractor"                
+        logo: "tractor"                            
+      us: 7              
+      them: 12                                      
+    - opp:                 
+        name: "Gambit"                
+        logo: "gambit"                            
+      us: 15              
+      them: 4                                      
+    - opp:                 
+        name: "Steamboat"                
+        logo: "steamboat"                            
+      us: 14              
+      them: 13                                      
+    - opp:                 
+        name: "PanIC"                
+        logo: "select"                            
+      us: 10              
+      them: 13                                                
+  - name: "Chicago Heavyweights"          
+    date: "August 25-26 2012"          
+    location: "Rockford IL"          
+    games:                           
+    - opp:                 
+        name: "Interrobang"                
+        logo: "interrobang"                            
+      us: 9              
+      them: 13                                      
+    - opp:                 
+        name: "Skyway"                
+        logo: "skyway"                            
+      us: 13              
+      them: 4                                      
+    - opp:                 
+        name: "Threat Level Midnight"                
+        logo: "classic"                            
+      us: 11              
+      them: 5                                      
+    - opp:                 
+        name: "Muevela"                
+        logo: "muevela"                            
+      us: 13              
+      them: 5                                      
+    - opp:                 
+        name: "Mesteno"                
+        logo: "mesteno"                           
+      us: 10              
+      them: 11                                      
+    - opp:                 
+        name: "Stud Muffin"                
+        logo: "stud"                            
+      us: 15              
+      them: 9                                      
+    - opp:                 
+        name: "Nooga by Nature"                
+        logo: "nooga"                            
+      us: 15              
+      them: 11                                      
+    - opp:                 
+        name: "Minnesota Star Power"                
+        logo: "msp"                            
+      us: 12              
+      them: 10                                                
+  - name: "USAU Northwest Plains Sectionals"          
+    date: "September 15-16 2012"          
+    location: "Maple Plain MN"          
+    games:                           
+    - opp:                 
+        name: "Boomtown Pandas"                
+        logo: "boomtown"                            
+      us: 15              
+      them: 6                                      
+    - opp:                 
+        name: "Team Withdrew from Tournment"                
+        logo: "classic"                            
+      us: 15              
+      them: 6                                      
+    - opp:                 
+        name: "Plowed"                
+        logo: "plowed"                            
+      us: 11              
+      them: 7                                      
+    - opp:                 
+        name: "Minnesota Star Power"                
+        logo: "msp"                            
+      us: 12              
+      them: 13                                      
+    - opp:                 
+        name: "NOISE"                
+        logo: "noise"                            
+      us: 14              
+      them: 12                                      
+    - opp:                 
+        name: "Stud Muffin"                
+        logo: "stud"                            
+      us: 10              
+      them: 15                                      
+    - opp:                 
+        name: "Mad Udderburn"                
+        logo: "udderburn"                            
+      us: 15              
+      them: 13                                                
+  - name: "USAU North Central Regionals"          
+    date: "September 29-30 2012"          
+    location: "Maple Plain MN"          
+    games:                            
+    - opp:                 
+        name: "Drag'n Thrust"                
+        logo: "dnt"                            
+      us: 3              
+      them: 13                                      
+    - opp:                 
+        name: "Stud Muffin"                
+        logo: "stud"                            
+      us: 10              
+      them: 13                                      
+    - opp:                 
+        name: "NOISE"                
+        logo: "noise"                            
+      us: 13              
+      them: 6                                      
+    - opp:                 
+        name: "Threat Level Midnight"                
+        logo: "classic"                            
+      us: 13              
+      them: 5                                      
+    - opp:                 
+        name: "STL"                
+        logo: "stl"                            
+      us: 13              
+      them: 10                                      
+    - opp:                 
+        name: "Minnesota Star Power"                
+        logo: "msp"                            
+      us: 9              
+      them: 15                                      
+    - opp:                 
+        name: "Stud Muffin"                
+        logo: "stud"                            
+      us: 15              
+      them: 11
+current:
+- name: "MUDI"        
+  date: "July 23-24 2016"        
+  location: "Maple Plain MN"        
+  games: []
+- name: "TCT Pro-Elite Challenge"        
+  date: "July 30-31 2016"        
+  location: "Aurora, CO"        
+  games: []
