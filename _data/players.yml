@@ -1,7 +1,127 @@
+- number: 0
+  nameFirst: Lisa
+  nameLast: Qiu
+  photo: /assets/images/headshots_16/Lisa(0).JPG
+  position: Cutter
+  age: 25
+  exp: 7
+  hometown: "Eden Prarie, MN"
+  college: "Concordia College"
+
+- number: 1
+  nameFirst: Cole
+  nameLast: Jensen
+  photo: /assets/images/headshots_16/Cole(1).JPG
+  position: Cutter
+  age: 25
+  exp: 7
+  hometown: "Eden Prarie, MN"
+  college: "Concordia College"
+
+- number: 2
+  nameFirst: Adam
+  nameLast: Trautman
+  photo: /assets/images/headshots_16/Trauty(2).JPG
+  position: Cutter
+  age: 25
+  exp: 7
+  hometown: "Eden Prarie, MN"
+  college: "Concordia College"
+
 - number: 3
   nameFirst: Bryan
   nameLast: Vohnoutka
-  photo: /assets/images/headshot_default.png
+  photo: /assets/images/headshots_16/Bvon(3).JPG
+  position: Cutter
+  age: 25
+  exp: 7
+  hometown: "Eden Prarie, MN"
+  college: "Concordia College"
+
+- number: 4
+  nameFirst: Kelsey
+  nameLast: Mork
+  photo: /assets/images/headshots_16/Kelsey(4).JPG
+  position: Cutter
+  age: 25
+  exp: 7
+  hometown: "Eden Prarie, MN"
+  college: "Concordia College"
+
+- number: 7
+  nameFirst: Steve
+  nameLast: Alexander
+  photo: /assets/images/headshots_16/Steve(7).JPG
+  position: Cutter
+  age: 25
+  exp: 7
+  hometown: "Eden Prarie, MN"
+  college: "Concordia College"
+
+- number: 8
+  nameFirst: Clay
+  nameLast: Thomas
+  photo: /assets/images/headshots_16/Clay(8).JPG
+  position: Cutter
+  age: 25
+  exp: 7
+  hometown: "Eden Prarie, MN"
+  college: "Concordia College"
+
+- number: 9
+  nameFirst: Brian
+  nameLast: Thompson
+  photo: /assets/images/headshots_16/Sunshine(9).JPG
+  position: Cutter
+  age: 25
+  exp: 7
+  hometown: "Eden Prarie, MN"
+  college: "Concordia College"
+
+- number: 10
+  nameFirst: Erin
+  nameLast: Mirocha
+  photo: /assets/images/headshots_16/Erin(10).JPG
+  position: Cutter
+  age: 25
+  exp: 7
+  hometown: "Eden Prarie, MN"
+  college: "Concordia College"
+
+- number: 11
+  nameFirst: Phillip
+  nameLast: Arets
+  photo: /assets/images/headshots_16/Phil(11).JPG
+  position: Cutter
+  age: 25
+  exp: 7
+  hometown: "Eden Prarie, MN"
+  college: "Concordia College"
+
+- number: 12
+  nameFirst: Michael
+  nameLast: Ruble
+  photo: /assets/images/headshots_16/Ruble(12).JPG
+  position: Cutter
+  age: 25
+  exp: 7
+  hometown: "Eden Prarie, MN"
+  college: "Concordia College"
+
+- number: 13
+  nameFirst: Emily
+  nameLast: Fujii
+  photo: /assets/images/headshots_16/Fujii(13).JPG
+  position: Cutter
+  age: 25
+  exp: 7
+  hometown: "Eden Prarie, MN"
+  college: "Concordia College"
+
+- number: 14
+  nameFirst: Katherine
+  nameLast: Zimmermann
+  photo: /assets/images/headshots_16/KZ(14).JPG
   position: Cutter
   age: 25
   exp: 7
@@ -11,7 +131,7 @@
 - number: 15
   nameFirst: Gordy
   nameLast: Stecklein
-  photo: /assets/images/headshot_default.png
+  photo: /assets/images/headshots_16/Gordy(15).JPG
   position: Handler
   age: 99
   exp: 7
@@ -21,6 +141,16 @@
 - number: 16
   nameFirst: Becca
   nameLast: Morales
+  photo: /assets/images/headshots_16/Becca(16).JPG
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Somwhere"
+  college: "Some School"
+
+- number: 17
+  nameFirst: Ryan
+  nameLast: Oto
   photo: /assets/images/headshot_default.png
   position: Cutter
   age: 25
@@ -31,7 +161,137 @@
 - number: 20
   nameFirst: Jill
   nameLast: Merkle
+  photo: /assets/images/headshots_16/Jill(20).JPG
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Minneapolis, MN"
+  college: "Carleton College"
+
+- number: 23
+  nameFirst: Dave
+  nameLast: Stemper
+  photo: /assets/images/headshots_16/Dave(23).JPG
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Minneapolis, MN"
+  college: "Carleton College"
+
+- number: 24
+  nameFirst: Andrew
+  nameLast: Kelley
+  photo: /assets/images/headshots_16/Razor(24).JPG
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Minneapolis, MN"
+  college: "Carleton College"
+
+- number: 25
+  nameFirst: Ty
+  nameLast: Thorsen
+  photo: /assets/images/headshots_16/Ty(25).JPG
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Minneapolis, MN"
+  college: "Carleton College"
+
+- number: 28
+  nameFirst: Joe
+  nameLast: Nelson
+  photo: /assets/images/headshots_16/Joe(28).JPG
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Minneapolis, MN"
+  college: "Carleton College"
+
+- number: 30
+  nameFirst: Tom
+  nameLast: Grund
+  photo: /assets/images/headshots_16/Tom(30).JPG
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Minneapolis, MN"
+  college: "Carleton College"
+
+- number: 33
+  nameFirst: Kayla
+  nameLast: Blanek
+  photo: /assets/images/headshots_16/Kayla(33).JPG
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Minneapolis, MN"
+  college: "Carleton College"
+
+- number: 34
+  nameFirst: Nihal
+  nameLast: Bhakta
   photo: /assets/images/headshot_default.png
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Minneapolis, MN"
+  college: "Carleton College"
+
+- number: 43
+  nameFirst: Dustin
+  nameLast: Rooffener
+  photo: /assets/images/headshots_16/Dustin(43).JPG
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Minneapolis, MN"
+  college: "Carleton College"
+
+- number: 44
+  nameFirst: Ash
+  nameLast: Trautman
+  photo: /assets/images/headshots_16/Ash(44).JPG
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Minneapolis, MN"
+  college: "Carleton College"
+
+- number: 53
+  nameFirst: Emma
+  nameLast: Piorier
+  photo: /assets/images/headshots_16/Emma(53).JPG
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Minneapolis, MN"
+  college: "Carleton College"
+
+- number: 54
+  nameFirst: Dylan
+  nameLast: DeClerck
+  photo: /assets/images/headshots_16/Dylan(54).JPG
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Minneapolis, MN"
+  college: "Carleton College"
+
+- number: 88
+  nameFirst: Aaron
+  nameLast: Swaney
+  photo: /assets/images/headshots_16/Swaney(88).JPG
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Minneapolis, MN"
+  college: "Carleton College"
+
+- number: 96
+  nameFirst: Brian
+  nameLast: Edgerton
+  photo: /assets/images/headshots_16/Edge(96).JPG
   position: Cutter
   age: 25
   exp: 4
