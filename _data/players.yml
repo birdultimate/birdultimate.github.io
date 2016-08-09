@@ -158,6 +158,16 @@
   hometown: "Somwhere"
   college: "Some School"
 
+- number: 18
+  nameFirst: AJ
+  nameLast: Montanez
+  photo: /assets/images/headshots_16/AJ(18).JPG
+  position: Cutter
+  age: 25
+  exp: 4
+  hometown: "Somwhere"
+  college: "Some School"
+
 - number: 20
   nameFirst: Jill
   nameLast: Merkle
